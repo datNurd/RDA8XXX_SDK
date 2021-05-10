@@ -24,6 +24,8 @@ endif
 # list all the modules that need to be compiled prior to using this module
 LOCAL_MODULE_DEPENDS := \
 			${PLATFORM_SERVICE}/base \
+			$(PLATFORM_SERVICE)/lvgl_800 \
+			$(PLATFORM_SERVICE)/lv_lib_png \
 			${PLATFORM_SERVICE}/cfw \
 			${PLATFORM_SERVICE}/dm \
 			${PLATFORM_SERVICE}/pm \
@@ -32,7 +34,7 @@ LOCAL_MODULE_DEPENDS := \
 			${PLATFORM_SERVICE}/mci \
 			${PLATFORM_SERVICE}/net \
 			${PLATFORM_SERVICE}/fota \
-			$(PLATFORM_SERVICE)/spiffs
+			$(PLATFORM_SERVICE)/spiffs 
 
 LOCAL_MODULE_DEPENDS += $(PLATFORM_SERVICE)/nanopb
 

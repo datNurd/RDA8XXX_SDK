@@ -42,7 +42,7 @@
 #define UINT64_MAX 	0xffffffffffffffffUL
 #endif
 
-typedef unsigned int   intptr_t;
-
+typedef int   intptr_t;
+typedef unsigned int   uintptr_t;
 
 #endif

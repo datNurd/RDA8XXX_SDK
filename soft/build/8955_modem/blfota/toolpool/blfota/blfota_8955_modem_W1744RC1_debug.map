@@ -1,0 +1,957 @@
+Archive member included because of file (symbol)
+
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o (bl_init)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o) (bl_log_init)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o) (bl_heap_init)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o (bl_watchdog_start)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o) (bl_pmu_init)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_run.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o) (bl_run_with_stack)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o (sf_lseek)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o (bl_SpiFlashErase)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o) (SPIFFS_check)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o) (spiffs_phys_rd)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o) (spiffs_object_index_consistency_check)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o) (spiffs_gc_check)
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                              E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o (fotaGetStatus)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .pdr           0x0000000000000000       0x60 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .pdr           0x0000000000000000      0x140 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .text.fotaFlashErase
+                0x0000000000000000       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .text.fotaFlashProgram
+                0x0000000000000000       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .pdr           0x0000000000000000       0x80 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .text.bl_run_with_sram_top
+                0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .executor_ctx  0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .pdr           0x0000000000000000       0x80 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .text.bl_log_output
+                0x0000000000000000       0x3c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .text.bl_log   0x0000000000000000       0x60 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .pdr           0x0000000000000000       0xe0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .text.bl_malloc2
+                0x0000000000000000       0x34 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .text.bl_free2
+                0x0000000000000000       0x88 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .text.bl_sram_malloc
+                0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .text.bl_ddr_malloc
+                0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .text.bl_free  0x0000000000000000       0x3c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .pdr           0x0000000000000000      0x260 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .text.bl_hw_tick
+                0x0000000000000000        0xc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .text.bl_ispi_init
+                0x0000000000000000       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .text.bl_platform_shutdown
+                0x0000000000000000       0x30 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .pdr           0x0000000000000000      0x260 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_set_sublcd_level
+                0x0000000000000000        0x4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_ac_on
+                0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_force_set_core_voltage
+                0x0000000000000000       0x90 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_set_low_vbat_shutdown
+                0x0000000000000000       0x6c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_set_charge_nodr
+                0x0000000000000000       0x24 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_enable_ldo_blled
+                0x0000000000000000       0x54 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_set_led2_level
+                0x0000000000000000       0x40 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_set_led1_level
+                0x0000000000000000       0x40 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_set_keypad_level
+                0x0000000000000000       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_set_led0_level
+                0x0000000000000000       0x40 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_enable_camera_flash
+                0x0000000000000000       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_set_led3_level
+                0x0000000000000000       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_set_lcd_level
+                0x0000000000000000       0x9c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text.bl_pmd_close
+                0x0000000000000000       0x54 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .rodata.lightLevelToBacklight.1540
+                0x0000000000000000        0x8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .text          0x0000000000000000       0x2c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_run.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_run.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_run.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_run.o)
+ .pdr           0x0000000000000000       0x20 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_run.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .pdr           0x0000000000000000      0x2a0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.bl_spiffs2sf_stat
+                0x0000000000000000       0x2c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.sf_fstat
+                0x0000000000000000       0x40 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.sf_stat  0x0000000000000000       0x3c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.sf_access
+                0x0000000000000000       0x2c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.sf_rename
+                0x0000000000000000       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.sf_fremove
+                0x0000000000000000       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.sf_create
+                0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .pdr           0x0000000000000000      0x1e0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .text.bl_SpiFlashGetSize
+                0x0000000000000000       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .text.bl_SpiFlashChipErase
+                0x0000000000000000       0x2c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .pdr           0x0000000000000000      0x440 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_mounted
+                0x0000000000000000       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_errno
+                0x0000000000000000        0x4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_clearerr
+                0x0000000000000000        0x8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_fflush
+                0x0000000000000000       0x28 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_opendir
+                0x0000000000000000       0x30 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_closedir
+                0x0000000000000000       0x2c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_set_file_callback_func
+                0x0000000000000000       0x24 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_info
+                0x0000000000000000       0x88 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_tell
+                0x0000000000000000       0x64 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_eof
+                0x0000000000000000       0x7c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_gc
+                0x0000000000000000       0x5c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_gc_quick
+                0x0000000000000000       0x64 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_readdir
+                0x0000000000000000       0x7c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.spiffs_read_dir_v
+                0x0000000000000000       0xb8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_fremove
+                0x0000000000000000       0x88 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_open_by_page
+                0x0000000000000000      0x14c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_open_by_dirent
+                0x0000000000000000       0xe0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_rename
+                0x0000000000000000      0x108 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.spiffs_stat_pix
+                0x0000000000000000       0xc8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_fstat
+                0x0000000000000000       0x74 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_stat
+                0x0000000000000000       0x80 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_creat
+                0x0000000000000000       0x90 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_probe_fs
+                0x0000000000000000       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text.SPIFFS_format
+                0x0000000000000000       0x80 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .pdr           0x0000000000000000      0x480 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text.spiffs_probe
+                0x0000000000000000       0xfc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text.spiffs_object_open_by_id
+                0x0000000000000000       0x54 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .pdr           0x0000000000000000      0x140 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+ .pdr           0x0000000000000000       0xc0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.fotaDownloadFinished
+                0x0000000000000000       0x34 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .data          0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .bss           0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .pdr           0x0000000000000000      0x2c0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0xffffffff88000000 0x0000000000010000 xr
+sram             0xffffffff81c00280 0x000000000000fd80 w
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+LOAD E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+LOAD E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/mem_bridge_rom_CHIP.elf
+
+.entry          0xffffffff88000000       0x6c
+                0xffffffff88000000        0x4 LONG 0xffffffff
+                0xffffffff88000010                . = ALIGN (0x10)
+ *fill*         0xffffffff88000004        0xc 00
+ *(.bl_entry)
+ .bl_entry      0xffffffff88000010       0x5c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+                0xffffffff88000010                bl_entry
+                0xffffffffa1c0027c                . = 0xffffffffa1c0027c
+
+.fixptr
+ *(.fixptr)
+                0xffffffff81c00280                __sram_heap_start = 0xffffffff81c00280
+                0xffffffff81c0e000                __sram_heap_end = 0xffffffff81c0e000
+                0xffffffff81c10000                __sram_top = 0xffffffff81c10000
+                0xffffffff81c0e000                . = __sram_heap_end
+
+.sram_text      0xffffffff81c0e000      0x464 load address 0xffffffff8800006c
+                0xffffffff81c0e000                __sram_text_start = .
+ *bl_spi_flash.*(.text .text.* .gnu.linkonce.t.* .rdata .rodata .rodata.* .gnu.linkonce.r.*)
+ .text.bl_SpiFlashWaitNotBusy
+                0xffffffff81c0e000       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .text.bl_SpiSendCmdNoRx
+                0xffffffff81c0e01c       0x44 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .text.T.10     0xffffffff81c0e060       0xc0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .text.bl_SpiFlashWaitWip
+                0xffffffff81c0e120       0x20 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .text.bl_SpiCmdWriteEnable
+                0xffffffff81c0e140       0x2c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .text.bl_SpiFlashEraseWithOpcode
+                0xffffffff81c0e16c       0x60 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .text.bl_SpiFlashBlock32KErase
+                0xffffffff81c0e1cc       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+                0xffffffff81c0e1cd                bl_SpiFlashBlock32KErase
+ .text.bl_SpiFlashBlockErase
+                0xffffffff81c0e1e0       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+                0xffffffff81c0e1e1                bl_SpiFlashBlockErase
+ .text.bl_SpiFlashSectorErase
+                0xffffffff81c0e1f4       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+                0xffffffff81c0e1f5                bl_SpiFlashSectorErase
+ .text.bl_SpiFlashErase
+                0xffffffff81c0e208       0x98 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+                0xffffffff81c0e209                bl_SpiFlashErase
+ .text.bl_SpiFlashOpen
+                0xffffffff81c0e2a0       0xc0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+                0xffffffff81c0e2a1                bl_SpiFlashOpen
+ .text.bl_SpiFlashProgram
+                0xffffffff81c0e360       0x78 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+                0xffffffff81c0e361                bl_SpiFlashProgram
+ .text.bl_SpiFlashWrite
+                0xffffffff81c0e3d8       0x68 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+                0xffffffff81c0e3d9                bl_SpiFlashWrite
+ *(.sramtext)
+ .sramtext      0xffffffff81c0e440       0x24 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff81c0e441                bl_delay_us
+                0xffffffff81c0e464                __sram_text_end = .
+                0xffffffff8800006c                __sram_text_load_start = LOADADDR (.sram_text)
+
+.sram_data      0xffffffff81c0e470        0x0 load address 0xffffffff880004d0
+                0xffffffff81c0e470                __sram_data_start = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ *(.sramdata)
+                0xffffffff81c0e470                __sram_data_end = .
+                0xffffffff880004d0                __sram_data_load_start = LOADADDR (.sram_data)
+                0xffffffffa1c0e470                . = (. + 0x20000000)
+
+.sram_ucdata    0xffffffffa1c0e470        0x0 load address 0xffffffff880004d0
+                0xffffffffa1c0e470                __sram_ucdata_start = .
+ *(.sramucdata)
+                0xffffffffa1c0e470                __sram_ucdata_end = .
+                0xffffffff81c0e470                . = (. - 0x20000000)
+                0xffffffff880004d0                __sram_ucdata_load_start = LOADADDR (.sram_ucdata)
+
+.sram_bss       0xffffffff81c0e470      0x410 load address 0xffffffff880004d0
+                0xffffffff81c0e470                __sram_bss_start = .
+ *(.bss .bss.* COMMON .scommon .sbss .sbss.* .sbss2 .sbss2.* .gnu.linkonce.b.*)
+ .bss.gBlFotaContextBuf
+                0xffffffff81c0e470      0x100 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .bss.gBlLogInited
+                0xffffffff81c0e570        0x1 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ *fill*         0xffffffff81c0e571        0x3 00
+ .bss.gSramHeap
+                0xffffffff81c0e574        0xc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .bss.gDdrHeap  0xffffffff81c0e580        0xc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .bss.gBlSfContext
+                0xffffffff81c0e58c      0x2ec E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .bss.gSpiFlashCtx
+                0xffffffff81c0e878        0x8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ *(.srambss)
+                0xffffffff81c0e880                __sram_bss_end = .
+                0xffffffffa1c0e880                . = (. + 0x20000000)
+
+.sram_ucbss     0xffffffffa1c0e880        0x0 load address 0xffffffff880004d0
+                0xffffffffa1c0e880                __sram_ucbss_start = .
+ *(.sramucbss)
+                0xffffffffa1c0e880                __sram_ucbss_end = .
+                0xffffffff81c0e880                . = (. - 0x20000000)
+
+.flash_text     0xffffffff880004d0     0x7334
+ *(.text .text.* .gnu.linkonce.t.* .rdata .rodata .rodata.* .gnu.linkonce.r.*)
+ .text.bl_send_event
+                0xffffffff880004d0       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .text.bl_fota_progress
+                0xffffffff880004e0       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .rodata.str1.4
+                0xffffffff88000518       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .text.bl_main  0xffffffff88000530      0x144 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+                0xffffffff88000531                bl_main
+ .rodata.C.2.1590
+                0xffffffff88000674       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .text.fotaFlashUncacheMap
+                0xffffffff8800068c       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+                0xffffffff8800068d                fotaFlashUncacheMap
+ .text.fotaFileRemove
+                0xffffffff880006a0       0x20 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+                0xffffffff880006a1                fotaFileRemove
+ .text.fotaFileRenameAtomic
+                0xffffffff880006c0       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+                0xffffffff880006c1                fotaFileRenameAtomic
+ .text.fotaFileRead
+                0xffffffff880006d0       0x44 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+                0xffffffff880006d1                fotaFileRead
+ .text.fotaFileWrite
+                0xffffffff88000714       0x44 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+                0xffffffff88000715                fotaFileWrite
+ .text.fotaFileClose
+                0xffffffff88000758       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+                0xffffffff88000759                fotaFileClose
+ .text.fotaFileOpen
+                0xffffffff88000770       0x24 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+                0xffffffff88000771                fotaFileOpen
+ .text.fotaFlashEraseProgram
+                0xffffffff88000794       0x28 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+                0xffffffff88000795                fotaFlashEraseProgram
+ .text.bl_init  0xffffffff880007bc       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+                0xffffffff880007bd                bl_init
+ .text.bl_rt_init
+                0xffffffff880007d8       0xc0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+                0xffffffff880007d9                bl_rt_init
+ .text.bl_log_init
+                0xffffffff88000898       0x20 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+                0xffffffff88000899                bl_log_init
+ .text.bl_log_close
+                0xffffffff880008b8       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+                0xffffffff880008b9                bl_log_close
+ .text.bl_heap_init2
+                0xffffffff880008d4        0xc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .text.bl_heap_init
+                0xffffffff880008e0       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+                0xffffffff880008e1                bl_heap_init
+ .text.bl_watchdog_start
+                0xffffffff88000918       0x2c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000919                bl_watchdog_start
+ .text.bl_watchdog_stop
+                0xffffffff88000944        0xc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000945                bl_watchdog_stop
+ .text.bl_watchdog_reload
+                0xffffffff88000950       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000951                bl_watchdog_reload
+ .text.bl_delay_tick
+                0xffffffff8800096c       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff8800096d                bl_delay_tick
+ .text.bl_clock_init
+                0xffffffff88000984       0x60 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000985                bl_clock_init
+ .text.bl_ispi_read
+                0xffffffff880009e4       0x6c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff880009e5                bl_ispi_read
+ .text.bl_ispi_write
+                0xffffffff88000a50       0x54 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000a51                bl_ispi_write
+ .text.bl_xcv_init
+                0xffffffff88000aa4       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000aa5                bl_xcv_init
+ .text.bl_xcv_close
+                0xffffffff88000abc       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000abd                bl_xcv_close
+ .text.bl_xcv_read
+                0xffffffff88000ad0       0x8c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000ad1                bl_xcv_read
+ .text.bl_xcv_write
+                0xffffffff88000b5c       0x68 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000b5d                bl_xcv_write
+ .text.bl_xcv_configure
+                0xffffffff88000bc4       0x5c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000bc5                bl_xcv_configure
+ .text.bl_psram_init
+                0xffffffff88000c20       0x88 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000c21                bl_psram_init
+ .text.bl_platform_reset
+                0xffffffff88000ca8       0x28 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000ca9                bl_platform_reset
+ .text.bl_platform_init
+                0xffffffff88000cd0       0x40 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                0xffffffff88000cd1                bl_platform_init
+ .text.bl_pmu_read
+                0xffffffff88000d10       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+                0xffffffff88000d11                bl_pmu_read
+ .text.bl_pmu_write
+                0xffffffff88000d28       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+                0xffffffff88000d29                bl_pmu_write
+ .text.bl_pmd_set_charge_max_vfb
+                0xffffffff88000d44       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+                0xffffffff88000d45                bl_pmd_set_charge_max_vfb
+ .text.bl_pmd_set_charge_current
+                0xffffffff88000d7c       0x8c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+                0xffffffff88000d7d                bl_pmd_set_charge_current
+ .text.bl_pmu_init
+                0xffffffff88000e08       0xe0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+                0xffffffff88000e09                bl_pmu_init
+ .text.sf_fslock_impl
+                0xffffffff88000ee8        0x4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88000ee9                sf_fslock_impl
+ .text.sf_fsunlock_impl
+                0xffffffff88000eec        0x4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88000eed                sf_fsunlock_impl
+ .text.bl_sf_flash_read
+                0xffffffff88000ef0       0x48 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.sf_lseek
+                0xffffffff88000f38       0x24 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88000f39                sf_lseek
+ .text.sf_open  0xffffffff88000f5c       0x20 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88000f5d                sf_open
+ .text.sf_close
+                0xffffffff88000f7c       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88000f7d                sf_close
+ .text.sf_rename_atomic
+                0xffffffff88000f98       0x1c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88000f99                sf_rename_atomic
+ .text.sf_write
+                0xffffffff88000fb4       0x24 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88000fb5                sf_write
+ .text.sf_read  0xffffffff88000fd8       0x24 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88000fd9                sf_read
+ .text.sf_remove
+                0xffffffff88000ffc       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88000ffd                sf_remove
+ .text.sf_destroy
+                0xffffffff88001014       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff88001015                sf_destroy
+ .text.sf_init  0xffffffff8800102c       0x78 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                0xffffffff8800102d                sf_init
+ .text.bl_sf_flash_erase
+                0xffffffff880010a4       0x34 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.bl_sf_flash_write
+                0xffffffff880010d8       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .text.SPIFFS_check
+                0xffffffff88001110       0x5c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff88001111                SPIFFS_check
+ .text.SPIFFS_close
+                0xffffffff8800116c       0x5c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff8800116d                SPIFFS_close
+ .text.SPIFFS_unmount
+                0xffffffff880011c8       0x58 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff880011c9                SPIFFS_unmount
+ .text.SPIFFS_remove
+                0xffffffff88001220       0xe0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff88001221                SPIFFS_remove
+ .text.SPIFFS_rename_atomic
+                0xffffffff88001300      0x15c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff88001301                SPIFFS_rename_atomic
+ .text.SPIFFS_lseek
+                0xffffffff8800145c      0x124 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff8800145d                SPIFFS_lseek
+ .text.SPIFFS_write
+                0xffffffff88001580      0x128 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff88001581                SPIFFS_write
+ .text.SPIFFS_read
+                0xffffffff880016a8      0x108 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff880016a9                SPIFFS_read
+ .text.SPIFFS_open
+                0xffffffff880017b0      0x16c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff880017b1                SPIFFS_open
+ .text.SPIFFS_mount
+                0xffffffff8800191c       0xf0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                0xffffffff8800191d                SPIFFS_mount
+ .text.spiffs_phys_rd
+                0xffffffff88001a0c       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88001a0d                spiffs_phys_rd
+ .text.spiffs_page_data_check
+                0xffffffff88001a20       0xbc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text.spiffs_page_index_check
+                0xffffffff88001adc       0xc8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text.spiffs_phys_wr
+                0xffffffff88001ba4       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88001ba5                spiffs_phys_wr
+ .text.spiffs_phys_cpy
+                0xffffffff88001bb8       0x58 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88001bb9                spiffs_phys_cpy
+ .text.spiffs_obj_lu_find_entry_visitor
+                0xffffffff88001c10      0x260 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88001c11                spiffs_obj_lu_find_entry_visitor
+ .text.spiffs_erase_block
+                0xffffffff88001e70       0xec E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88001e71                spiffs_erase_block
+ .text.spiffs_obj_lu_scan_v
+                0xffffffff88001f5c       0x30 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text.spiffs_obj_lu_scan
+                0xffffffff88001f8c      0x18c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88001f8d                spiffs_obj_lu_scan
+ .text.spiffs_obj_lu_find_id
+                0xffffffff88002118       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88002119                spiffs_obj_lu_find_id
+ .text.spiffs_obj_lu_find_id_and_span_v
+                0xffffffff88002150       0xa8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text.spiffs_obj_lu_find_id_and_span
+                0xffffffff880021f8       0xb8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff880021f9                spiffs_obj_lu_find_id_and_span
+ .text.spiffs_obj_lu_find_id_and_span_by_phdr
+                0xffffffff880022b0       0xb8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff880022b1                spiffs_obj_lu_find_id_and_span_by_phdr
+ .text.spiffs_page_delete
+                0xffffffff88002368       0x8c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88002369                spiffs_page_delete
+ .text.spiffs_cb_object_event
+                0xffffffff880023f4       0xc8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff880023f5                spiffs_cb_object_event
+ .text.spiffs_object_open_by_page
+                0xffffffff880024bc       0xf0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff880024bd                spiffs_object_open_by_page
+ .text.spiffs_object_find_object_index_header_by_name
+                0xffffffff880025ac       0x90 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff880025ad                spiffs_object_find_object_index_header_by_name
+ .text.spiffs_object_read
+                0xffffffff8800263c      0x20c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff8800263d                spiffs_object_read
+ .text.spiffs_fd_find_new
+                0xffffffff88002848       0x28 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88002849                spiffs_fd_find_new
+ .text.spiffs_fd_return
+                0xffffffff88002870       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88002871                spiffs_fd_return
+ .text.spiffs_fd_get
+                0xffffffff880028a8       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff880028a9                spiffs_fd_get
+ .text.spiffs_obj_lu_find_free_obj_id
+                0xffffffff880028e0      0x1a0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff880028e1                spiffs_obj_lu_find_free_obj_id
+ .text.spiffs_obj_lu_find_free_obj_id_compact_v
+                0xffffffff88002a80       0xc4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text.spiffs_obj_lu_find_free_obj_id_bitmap_v
+                0xffffffff88002b44       0xd4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text.spiffs_object_find_object_index_header_by_name_v
+                0xffffffff88002c18       0x94 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .text.spiffs_object_update_name
+                0xffffffff88002cac       0x4c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88002cad                spiffs_object_update_name
+ .text.spiffs_obj_lu_find_free
+                0xffffffff88002cf8       0x80 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88002cf9                spiffs_obj_lu_find_free
+ .text.spiffs_object_create
+                0xffffffff88002d78      0x178 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88002d79                spiffs_object_create
+ .text.spiffs_page_move
+                0xffffffff88002ef0      0x15c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88002ef1                spiffs_page_move
+ .text.spiffs_object_update_index_hdr
+                0xffffffff8800304c      0x118 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff8800304d                spiffs_object_update_index_hdr
+ .text.spiffs_page_allocate_data
+                0xffffffff88003164      0x194 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88003165                spiffs_page_allocate_data
+ .text.spiffs_object_truncate
+                0xffffffff880032f8      0x520 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff880032f9                spiffs_object_truncate
+ .text.spiffs_object_modify
+                0xffffffff88003818      0x4f8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88003819                spiffs_object_modify
+ .text.spiffs_object_append
+                0xffffffff88003d10      0x5bc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                0xffffffff88003d11                spiffs_object_append
+ .text.spiffs_object_index_search
+                0xffffffff880042cc       0x30 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .text.spiffs_object_index_consistency_check
+                0xffffffff880042fc       0x80 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+                0xffffffff880042fd                spiffs_object_index_consistency_check
+ .text.spiffs_lookup_consistency_check
+                0xffffffff8800437c       0x70 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+                0xffffffff8800437d                spiffs_lookup_consistency_check
+ .text.spiffs_object_index_consistency_check_v
+                0xffffffff880043ec      0x1c8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .text.spiffs_object_get_data_page_index_reference
+                0xffffffff880045b4       0xa8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .text.spiffs_rewrite_index
+                0xffffffff8800465c      0x1d4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .text.spiffs_delete_obj_lazy
+                0xffffffff88004830       0x54 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .text.spiffs_page_consistency_check
+                0xffffffff88004884      0x6d4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+                0xffffffff88004885                spiffs_page_consistency_check
+ .text.spiffs_rewrite_page
+                0xffffffff88004f58       0x60 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .text.spiffs_lookup_check_v
+                0xffffffff88004fb8      0x5e8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .text.spiffs_gc_find_candidate
+                0xffffffff880055a0      0x2d4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+                0xffffffff880055a1                spiffs_gc_find_candidate
+ .text.spiffs_gc_erase_page_stats
+                0xffffffff88005874       0xfc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+                0xffffffff88005875                spiffs_gc_erase_page_stats
+ .text.spiffs_gc_clean
+                0xffffffff88005970      0x4fc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+                0xffffffff88005971                spiffs_gc_clean
+ .text.spiffs_gc_erase_block
+                0xffffffff88005e6c       0x14 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+ .text.spiffs_gc_check
+                0xffffffff88005e80      0x164 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+                0xffffffff88005e81                spiffs_gc_check
+ .text.spiffs_gc_quick
+                0xffffffff88005fe4      0x170 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+                0xffffffff88005fe5                spiffs_gc_quick
+ .text.read_int
+                0xffffffff88006154       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.nofill   0xffffffff8800618c        0x8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.rc_read  0xffffffff88006194       0x28 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.rc_do_normalize
+                0xffffffff880061bc       0x34 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.rc_is_bit_0
+                0xffffffff880061f0       0x3c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.rc_get_bit
+                0xffffffff8800622c       0x5c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.write_byte
+                0xffffffff88006288       0xa8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.fotaUnlzma
+                0xffffffff88006330      0x76c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                0xffffffff88006331                fotaUnlzma
+ .text.fotaUnlzmaGetLength
+                0xffffffff88006a9c      0x130 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                0xffffffff88006a9d                fotaUnlzmaGetLength
+ .text.fotaCalcCrc
+                0xffffffff88006bcc       0x28 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                0xffffffff88006bcd                fotaCalcCrc
+ .text.fotaCalcFileCrc
+                0xffffffff88006bf4       0x94 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                0xffffffff88006bf5                fotaCalcFileCrc
+ .text.RLE32    0xffffffff88006c88       0x20 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.fotaGetStatus
+                0xffffffff88006ca8       0x34 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                0xffffffff88006ca9                fotaGetStatus
+ .text.fotaContextSize
+                0xffffffff88006cdc        0x4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                0xffffffff88006cdd                fotaContextSize
+ .text.fotaReadStatusFile
+                0xffffffff88006ce0       0x58 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.fotaFileSInfoGet
+                0xffffffff88006d38       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.fotaInit
+                0xffffffff88006d70       0xe4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                0xffffffff88006d71                fotaInit
+ .text.fotaInvalidate
+                0xffffffff88006e54       0x30 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                0xffffffff88006e55                fotaInvalidate
+ .text.fotaFileSInfoFlush
+                0xffffffff88006e84       0xc0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.fotaFileIsValid
+                0xffffffff88006f44       0xa0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+ .text.fotaUpgrade
+                0xffffffff88006fe4      0x420 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                0xffffffff88006fe5                fotaUpgrade
+ .rodata.crc32_table
+                0xffffffff88007404      0x400 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+START GROUP
+LOAD E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a
+LOAD E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a
+END GROUP
+LOAD E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/env/lib/gcc/mips-elf/4.4.2\libgcc.a
+OUTPUT(E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/blfota_8955_modem_W1744RC1_debug.elf elf32-littlemips)
+
+.rel.dyn        0xffffffff88007804        0x0
+ .rel.dyn       0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+
+.reginfo        0x0000000000000000       0x18
+ .reginfo       0x0000000000000000       0x18 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+ .mdebug.abi32  0x0000000000000000        0x0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+
+.comment        0x0000000000000000       0x56
+ .comment       0x0000000000000000       0x25 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+                                         0x26 (size before relaxing)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .comment       0x0000000000000000       0x26 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+ .comment       0x0000000000000025       0x31 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+                                         0x96 (size before relaxing)
+
+.gnu.attributes
+                0x0000000000000000       0x10
+ .gnu.attributes
+                0x0000000000000000       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .gnu.attributes
+                0x0000000000000010       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .gnu.attributes
+                0x0000000000000020       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .gnu.attributes
+                0x0000000000000030       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .gnu.attributes
+                0x0000000000000040       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .gnu.attributes
+                0x0000000000000050       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .gnu.attributes
+                0x0000000000000060       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .gnu.attributes
+                0x0000000000000070       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .gnu.attributes
+                0x0000000000000080       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .gnu.attributes
+                0x0000000000000090       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .gnu.attributes
+                0x00000000000000a0       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .gnu.attributes
+                0x00000000000000b0       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .gnu.attributes
+                0x00000000000000c0       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+ .gnu.attributes
+                0x00000000000000d0       0x10 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/service/fota/fota_core/lib\libfota_core_debug.a(fota_corelib.o)
+
+.debug_abbrev   0x0000000000000000     0x1c88
+ .debug_abbrev  0x0000000000000000      0x1be E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .debug_abbrev  0x00000000000001be      0x121 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .debug_abbrev  0x00000000000002df      0x15c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .debug_abbrev  0x000000000000043b      0x1a6 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .debug_abbrev  0x00000000000005e1      0x1f4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .debug_abbrev  0x00000000000007d5      0x277 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .debug_abbrev  0x0000000000000a4c      0x16c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .debug_abbrev  0x0000000000000bb8      0x1fa E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .debug_abbrev  0x0000000000000db2      0x2ef E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .debug_abbrev  0x00000000000010a1      0x377 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .debug_abbrev  0x0000000000001418      0x30c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .debug_abbrev  0x0000000000001724      0x317 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .debug_abbrev  0x0000000000001a3b      0x24d E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+
+.debug_info     0x0000000000000000     0x9158
+ .debug_info    0x0000000000000000      0x3cb E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .debug_info    0x00000000000003cb      0x3a0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .debug_info    0x000000000000076b      0x378 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .debug_info    0x0000000000000ae3      0x2c5 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .debug_info    0x0000000000000da8      0x43e E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .debug_info    0x00000000000011e6      0xda8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .debug_info    0x0000000000001f8e      0x704 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .debug_info    0x0000000000002692      0xb79 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .debug_info    0x000000000000320b      0xc1a E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .debug_info    0x0000000000003e25     0x1645 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .debug_info    0x000000000000546a     0x20d7 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .debug_info    0x0000000000007541     0x101a E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .debug_info    0x000000000000855b      0xbfd E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+
+.debug_line     0x0000000000000000     0x29af
+ .debug_line    0x0000000000000000      0x1e1 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .debug_line    0x00000000000001e1      0x182 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .debug_line    0x0000000000000363      0x166 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .debug_line    0x00000000000004c9      0x156 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .debug_line    0x000000000000061f      0x158 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .debug_line    0x0000000000000777      0x3fd E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .debug_line    0x0000000000000b74      0x29c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .debug_line    0x0000000000000e10      0x2eb E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .debug_line    0x00000000000010fb      0x31c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .debug_line    0x0000000000001417      0x5cf E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .debug_line    0x00000000000019e6      0x8db E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .debug_line    0x00000000000022c1      0x3d9 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .debug_line    0x000000000000269a      0x315 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+
+.debug_frame    0x0000000000000000     0x144c
+ .debug_frame   0x0000000000000000       0x64 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .debug_frame   0x0000000000000064      0x110 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .debug_frame   0x0000000000000174       0x78 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .debug_frame   0x00000000000001ec       0x60 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .debug_frame   0x000000000000024c       0xa8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .debug_frame   0x00000000000002f4      0x180 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .debug_frame   0x0000000000000474      0x204 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .debug_frame   0x0000000000000678      0x21c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .debug_frame   0x0000000000000894      0x1a0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .debug_frame   0x0000000000000a34      0x3e0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .debug_frame   0x0000000000000e14      0x434 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .debug_frame   0x0000000000001248      0x13c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .debug_frame   0x0000000000001384       0xc8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+
+.debug_loc      0x0000000000000000     0x84b3
+ .debug_loc     0x0000000000000000      0x11d E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .debug_loc     0x000000000000011d      0x394 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .debug_loc     0x00000000000004b1       0xc0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .debug_loc     0x0000000000000571       0x98 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .debug_loc     0x0000000000000609      0x1f4 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .debug_loc     0x00000000000007fd      0x229 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .debug_loc     0x0000000000000a26      0x4e0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .debug_loc     0x0000000000000f06      0x795 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .debug_loc     0x000000000000169b      0x503 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .debug_loc     0x0000000000001b9e     0x1ce2 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .debug_loc     0x0000000000003880     0x3013 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .debug_loc     0x0000000000006893     0x11c8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .debug_loc     0x0000000000007a5b      0xa58 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+
+.debug_pubnames
+                0x0000000000000000      0xdf5
+ .debug_pubnames
+                0x0000000000000000       0x1e E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .debug_pubnames
+                0x000000000000001e       0xde E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .debug_pubnames
+                0x00000000000000fc       0x6c E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .debug_pubnames
+                0x0000000000000168       0x3e E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .debug_pubnames
+                0x00000000000001a6       0x54 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .debug_pubnames
+                0x00000000000001fa      0x178 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .debug_pubnames
+                0x0000000000000372      0x1f3 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .debug_pubnames
+                0x0000000000000565      0x109 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .debug_pubnames
+                0x000000000000066e       0xe9 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .debug_pubnames
+                0x0000000000000757      0x26b E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .debug_pubnames
+                0x00000000000009c2      0x327 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .debug_pubnames
+                0x0000000000000ce9       0x82 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .debug_pubnames
+                0x0000000000000d6b       0x8a E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+
+.debug_aranges  0x0000000000000000      0x718
+ .debug_aranges
+                0x0000000000000000       0x30 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .debug_aranges
+                0x0000000000000030       0x68 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .debug_aranges
+                0x0000000000000098       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .debug_aranges
+                0x00000000000000d0       0x38 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .debug_aranges
+                0x0000000000000108       0x50 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .debug_aranges
+                0x0000000000000158       0xb0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .debug_aranges
+                0x0000000000000208       0xb0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .debug_aranges
+                0x00000000000002b8       0xc0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .debug_aranges
+                0x0000000000000378       0x90 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .debug_aranges
+                0x0000000000000408      0x128 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .debug_aranges
+                0x0000000000000530      0x138 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .debug_aranges
+                0x0000000000000668       0x68 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .debug_aranges
+                0x00000000000006d0       0x48 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+
+.debug_ranges   0x0000000000000000      0xa90
+ .debug_ranges  0x0000000000000000       0x28 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+ .debug_ranges  0x0000000000000028       0x60 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+ .debug_ranges  0x0000000000000088       0x30 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+ .debug_ranges  0x00000000000000b8       0x60 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+ .debug_ranges  0x0000000000000118       0x78 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+ .debug_ranges  0x0000000000000190       0xd8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+ .debug_ranges  0x0000000000000268       0xa8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+ .debug_ranges  0x0000000000000310       0xb8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+ .debug_ranges  0x00000000000003c8       0xd8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+ .debug_ranges  0x00000000000004a0      0x170 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+ .debug_ranges  0x0000000000000610      0x1d8 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+ .debug_ranges  0x00000000000007e8      0x168 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+ .debug_ranges  0x0000000000000950      0x140 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+
+.debug_str      0x0000000000000000     0x33ec
+ .debug_str     0x0000000000000000      0x275 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota_main.o
+                                        0x2bd (size before relaxing)
+ .debug_str     0x0000000000000275       0xe0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/toolpool/blfota/obj/debug/blfota.o
+                                        0x1f8 (size before relaxing)
+ .debug_str     0x0000000000000355      0x348 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_entry.o)
+                                        0x3f9 (size before relaxing)
+ .debug_str     0x000000000000069d       0xb1 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_log.o)
+                                        0x1cb (size before relaxing)
+ .debug_str     0x000000000000074e      0x10a E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_malloc.o)
+                                        0x221 (size before relaxing)
+ .debug_str     0x0000000000000858      0x9b6 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_platform.o)
+                                        0xac2 (size before relaxing)
+ .debug_str     0x000000000000120e      0x9b9 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_pmd.o)
+                                        0xadc (size before relaxing)
+ .debug_str     0x0000000000001bc7      0x4a9 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_sf_api.o)
+                                        0x68a (size before relaxing)
+ .debug_str     0x0000000000002070      0x3c0 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(bl_spi_flash.o)
+                                        0x7ae (size before relaxing)
+ .debug_str     0x0000000000002430      0x452 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_hydrogen.o)
+                                        0x941 (size before relaxing)
+ .debug_str     0x0000000000002882      0x6ab E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_nucleus.o)
+                                        0xce0 (size before relaxing)
+ .debug_str     0x0000000000002f2d      0x2c3 E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_check.o)
+                                        0x849 (size before relaxing)
+ .debug_str     0x00000000000031f0      0x1fc E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/blfota/platform/chip/bootloader/lib\libbootloader_debug.a(spiffs_gc.o)
+                                        0x80e (size before relaxing)

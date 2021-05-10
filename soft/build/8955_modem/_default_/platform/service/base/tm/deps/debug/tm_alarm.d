@@ -1,0 +1,128 @@
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/platform/service/base/tm/obj/debug/tm_alarm.o: \
+ src/tm_alarm.c \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/target/8955_modem/include/fpconfig.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/cswtype.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/include/cs_types.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/event.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/cfw_multi_sim.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/include/cos.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/include/cs_types.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxs_io.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxs_type.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxs_defs.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxr_cpu.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxr_csp.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/defs/include/chip_id.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_mem_map.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_sys.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_sys_cfg.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_trace.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_timers.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_error.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_debug.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_sys.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_sxr.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/include/stdarg.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/errorcode.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_host.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/csw_debug.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_debug.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/csw_profile_codes.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/csw_csp.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/dm.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/tm.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/cswtype.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/sul.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/ts.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/base_prv.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/event.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxs_type.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxr_sbx.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/dm.h \
+ src/tm_prv.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/csw_mem_prv.h \
+ D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/edrv/pmd/include/pmd_m.h
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/target/8955_modem/include/fpconfig.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/cswtype.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/include/cs_types.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/event.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/cfw_multi_sim.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/include/cos.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/include/cs_types.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxs_io.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxs_type.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxs_defs.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxr_cpu.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxr_csp.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/defs/include/chip_id.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_mem_map.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_sys.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_sys_cfg.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_trace.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_timers.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_error.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_debug.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_sys.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_sxr.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/include/stdarg.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/errorcode.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_host.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/csw_debug.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/hal/include/hal_debug.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/csw_profile_codes.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/csw_csp.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/dm.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/tm.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/cswtype.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/sul.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/ts.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/base_prv.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/event.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxs_type.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/base/sx/include/sxr_sbx.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/dm.h:
+
+src/tm_prv.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/service/include/csw_mem_prv.h:
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/edrv/pmd/include/pmd_m.h:

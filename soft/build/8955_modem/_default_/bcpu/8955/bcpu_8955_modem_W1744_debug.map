@@ -1,0 +1,941 @@
+Archive member included because of file (symbol)
+
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+                              (bcpu_main)
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+                              D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o) (patch_Open)
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+                              D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o) (patch_spc_IrqHandler)
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+                              D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o) (patch_spc_TCHRxProcess)
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+                              D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o) (patch_spp_EqualizeNBurstSaic)
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+                              D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o) (patch_spp_GetUSF1)
+D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+                              D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o) (patch_ReplaceFunction)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .data          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .bss           0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .reginfo       0x0000000000000000       0x18 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .pdr           0x0000000000000000       0x40 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .mdebug.abi32  0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .debug_ranges  0x0000000000000000       0x20 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .text          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .data          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .bss           0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .reginfo       0x0000000000000000       0x18 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .pdr           0x0000000000000000       0x20 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .mdebug.abi32  0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .debug_ranges  0x0000000000000000       0x18 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .text          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .data          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .bss           0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .reginfo       0x0000000000000000       0x18 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .pdr           0x0000000000000000       0x40 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .mdebug.abi32  0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .debug_ranges  0x0000000000000000       0x50 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .text          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .data          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .bss           0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .reginfo       0x0000000000000000       0x18 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .pdr           0x0000000000000000       0x60 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .mdebug.abi32  0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .debug_ranges  0x0000000000000000       0x68 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .text          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .data          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .bss           0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .reginfo       0x0000000000000000       0x18 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .pdr           0x0000000000000000       0x40 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .mdebug.abi32  0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .debug_ranges  0x0000000000000000       0x20 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .text          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .data          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .bss           0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .reginfo       0x0000000000000000       0x18 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .pdr           0x0000000000000000       0x40 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .mdebug.abi32  0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .debug_ranges  0x0000000000000000       0x20 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .text          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+ .data          0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+ .bss           0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+ .reginfo       0x0000000000000000       0x18 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+ .pdr           0x0000000000000000       0x80 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+ .mdebug.abi32  0x0000000000000000        0x0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+ .text.patch_ReplaceData
+                0x0000000000000000       0xb8 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+ .debug_ranges  0x0000000000000000       0x30 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+ .gnu.attributes
+                0x0000000000000000       0x10 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/bcpu_rom_CHIP.elf
+                0xffffffff82000000                . = 0xffffffff82000000
+                0xffffffff82000980                . = (. + 0x980)
+                0xffffffff82000a00                . = ALIGN (0x100)
+                0xffffffff82000a00                _bcpu_ram_available_base = .
+                0xffffffff88011100                . = 0xffffffff88011100
+                0xffffffff88011100                _bcpu_flash_start = .
+                0xffffffff88011100                _bcpu_flash_rotext_start = .
+
+.bcpu_rotext    0xffffffff88011100      0x510
+ *spc_main.o(.bcpu_main_entry)
+ .bcpu_main_entry
+                0xffffffff88011100      0x3d0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+                0xffffffff88011101                bcpu_main
+ *(.text .text.*)
+ .text.patch_Open
+                0xffffffff880114d0       0x64 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+                0xffffffff880114d1                patch_Open
+ .text.patch_GetLocation
+                0xffffffff88011534       0x28 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+                0xffffffff88011535                patch_GetLocation
+ .text.patch_Enable
+                0xffffffff8801155c       0x24 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+                0xffffffff8801155d                patch_Enable
+ .text.patch_ReplaceFunction
+                0xffffffff88011580       0x88 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+                0xffffffff88011581                patch_ReplaceFunction
+                0xffffffff88011610                . = ALIGN (0x10)
+ *fill*         0xffffffff88011608        0x8 00
+                0xffffffff88011610                _bcpu_flash_rotext_end = .
+                0xffffffff88011610                _bcpu_flash_rodata_start = .
+
+.bcpu_rodata    0xffffffff88011610       0x10
+ *(.rodata.g_spcMapAccess)
+ .rodata.g_spcMapAccess
+                0xffffffff88011610        0x8 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+                0xffffffff88011610                g_spcMapAccess
+                0xffffffff88011620                . = ALIGN (0x10)
+ *fill*         0xffffffff88011618        0x8 00
+                0xffffffff88011620                _bcpu_flash_rodata_end = .
+                0xffffffff88011620                _bcpu_rom_flash_start_location = .
+
+.bcpu_rom_text  0xffffffffa1e80000    0x137b0 load address 0xffffffff81e80000
+ *bcpu_rom_CHIP.elf(.bcpu_rom_text)
+ .bcpu_rom_text
+                0xffffffffa1e80000    0x137b0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/bcpu_rom_CHIP.elf
+                0xffffffffa1e80000                __bcpu_rom_main
+                0xffffffffa1e80000                __bcpu_start
+                0xffffffffa1e80024                __bcpu_init
+                0xffffffffa1e80060                spal_InvalidateDcache
+                0xffffffffa1e80090                spal_InvalidateCache
+                0xffffffffa1e800c1                spal_Open
+                0xffffffffa1e800f0                spp_DummyPCH_DisAsm
+                0xffffffffa1e80141                spp_Open
+                0xffffffffa1e80180                __bb_int_handler
+                0xffffffffa1e80438                spal_BbGetSp
+                0xffffffffa1e80440                spal_IrqInit
+                0xffffffffa1e80471                spp_CipherA53Open
+                0xffffffffa1e80491                spp_CipherDecipherNb
+                0xffffffffa1e804e1                spp_CipherCipherNb
+                0xffffffffa1e80531                spp_CipherStart
+                0xffffffffa1e80581                spp_CipherCountInit
+                0xffffffffa1e805d0                spp_FcchDetectAsm
+                0xffffffffa1e80921                spp_GetAmrIc
+                0xffffffffa1e80a51                spp_GetAmrMetric
+                0xffffffffa1e80b41                spp_SearchAmrMarker
+                0xffffffffa1e80fb1                spp_ReorderFR_EFR
+                0xffffffffa1e813e1                spp_DecodeBlock
+                0xffffffffa1e82881                spp_QrDecomposition
+                0xffffffffa1e82aa1                spp_ComputePrefilter
+                0xffffffffa1e82cd1                spp_HardDecisionToSym
+                0xffffffffa1e82df1                spp_8tapDetectGsm
+                0xffffffffa1e82ef1                spp_InterfereDetect
+                0xffffffffa1e82f11                spp_EqShiftParam
+                0xffffffffa1e82f81                spp_EqSoftShift
+                0xffffffffa1e83071                spp_TofSearch
+                0xffffffffa1e83191                spp_DcocProcess
+                0xffffffffa1e83271                spp_FofEstimation
+                0xffffffffa1e834e1                spp_SaicProstep2
+                0xffffffffa1e83bd1                spp_SaicPro
+                0xffffffffa1e84b81                spp_DigitalAgc
+                0xffffffffa1e84c71                spp_Equalize_saic
+                0xffffffffa1e84e31                spp_Equalize
+                0xffffffffa1e85441                spp_Chest
+                0xffffffffa1e854f1                spp_ChannelEstimation
+                0xffffffffa1e85811                spp_EqualizeDecodeSch
+                0xffffffffa1e859c1                spp_EqualizeNBurstSaic
+                0xffffffffa1e85dd1                spp_ChannelEstimation8taps
+                0xffffffffa1e860d1                spp_TapsShorten
+                0xffffffffa1e861f1                spp_GaussSeidel
+                0xffffffffa1e86351                spp_ChannelTracking
+                0xffffffffa1e864f1                spp_EqualizeNBurst
+                0xffffffffa1e86961                spp_GetUSF
+                0xffffffffa1e86a81                spp_DecodeStealingBits
+                0xffffffffa1e86bd1                spp_GetChannelType
+                0xffffffffa1e86dd1                spp_GetMonPower
+                0xffffffffa1e86e21                spp_DeinterleaveBlock
+                0xffffffffa1e86e71                spp_SearchFcchFilter
+                0xffffffffa1e87371                spp_SearchFcch
+                0xffffffffa1e87931                spp_Modulation
+                0xffffffffa1e87c81                spp_BuildNBurst
+                0xffffffffa1e87d41                spp_EncodeABurst
+                0xffffffffa1e87eb1                spp_EncodeBlock
+                0xffffffffa1e89681                spp_10log10
+                0xffffffffa1e89741                spp_Log2
+                0xffffffffa1e89801                spp_DivL
+                0xffffffffa1e898b1                spp_Sqrt
+                0xffffffffa1e89921                spp_FullBurstReady
+                0xffffffffa1e89931                spp_ResetFullBurstReady
+                0xffffffffa1e89941                spp_OneFullBurstReady
+                0xffffffffa1e89971                spp_OneFullBurstDone
+                0xffffffffa1e899a1                spp_DetectDummyPCH
+                0xffffffffa1e89b30                spp_FcchDetectFilterAsm
+                0xffffffffa1e89d51                spal_DbgPxtsProfileTask
+                0xffffffffa1e89e21                spal_DbgHstSendEvent
+                0xffffffffa1e89e81                spal_DbgPxtsProfilePulse
+                0xffffffffa1e89f51                spal_DbgPxtsProfileFunctionEnter
+                0xffffffffa1e8a021                spal_DbgPxtsProfileFunctionExit
+                0xffffffffa1e8a0f1                spal_DbgPxtsProfileWindowEnter
+                0xffffffffa1e8a1c1                spal_DbgPxtsProfileWindowExit
+                0xffffffffa1e8a291                spal_DbgGdbHstSendEvent
+                0xffffffffa1e8a2d1                spal_GdbOpen
+                0xffffffffa1e8a311                spal_GdbBreaks
+                0xffffffffa1e8a341                spal_GdbBreakPrint
+                0xffffffffa1e8a3f1                spal_GdbPrepare
+                0xffffffffa1e8a411                spal_GdbSendcmd
+                0xffffffffa1e8a471                spal_Gdb16Step
+                0xffffffffa1e8a801                spal_Gdb32Step
+                0xffffffffa1e8aa61                spal_Gdb16EndStep
+                0xffffffffa1e8aa91                spal_Gdb32EndStep
+                0xffffffffa1e8aab1                spal_GdbLoop
+                0xffffffffa1e8ae11                spal_GdbException
+                0xffffffffa1e8aeb1                spal_GdbIrqDebug
+                0xffffffffa1e8af41                spal_GdbBreakRaise
+                0xffffffffa1e8aff1                spal_GdbBreakSoftBreakPoint
+                0xffffffffa1e8b091                spal_GdbBreakBreakPoint
+                0xffffffffa1e8b121                spal_GdbBreakDivBy0
+                0xffffffffa1e8b1e1                spal_IrqSetMask
+                0xffffffffa1e8b201                spal_IrqHandler
+                0xffffffffa1e8b361                spal_ItlvBusy
+                0xffffffffa1e8b371                spal_ItlvItlv
+                0xffffffffa1e8b3c1                spal_ItlvDitlv
+                0xffffffffa1e8b411                spal_ItlvIntClear
+                0xffffffffa1e8b421                spal_VitacBusy
+                0xffffffffa1e8b441                spal_VitacEqualize
+                0xffffffffa1e8b531                spal_VitacFullDecoding
+                0xffffffffa1e8b6a1                spal_XcorResetFchFilterParam
+                0xffffffffa1e8b6c1                spal_XcorTscxcNb
+                0xffffffffa1e8b6f1                spal_XcorTscxcSch
+                0xffffffffa1e8b721                spal_XcorBiterror
+                0xffffffffa1e8b751                spal_XcorChest
+                0xffffffffa1e8b7d1                spal_XcorSrec
+                0xffffffffa1e8b821                spal_XcorBmsum
+                0xffffffffa1e8b931                spal_XcorErrCalc
+                0xffffffffa1e8b961                spal_XcorIcorCalc
+                0xffffffffa1e8b991                spal_XcorHvextract
+                0xffffffffa1e8b9c1                spal_XcorDcoc
+                0xffffffffa1e8bb71                spal_XcorDcocHburst
+                0xffffffffa1e8bbe1                spal_XcorFchxc_Delay
+                0xffffffffa1e8bd71                spal_XcorChest8taps
+                0xffffffffa1e8bdf1                spal_XcorFchxc_AutoCorr
+                0xffffffffa1e8be41                spal_XcorFchxc
+                0xffffffffa1e8bf91                spal_XcorFchFilter
+                0xffffffffa1e8c100                spal_XcorFchFilterAsm
+                0xffffffffa1e8c2a0                spal_CapDecodeCrc
+                0xffffffffa1e8c360                spal_CapEncodeCrc
+                0xffffffffa1e8c420                spal_CapConvoluate
+                0xffffffffa1e8c510                spal_CapConvSrc
+                0xffffffffa1e8c5d0                spal_CapFireCorrection
+                0xffffffffa1e8c6a1                spal_CholkBusy
+                0xffffffffa1e8c6c1                spal_CholkCgStep1
+                0xffffffffa1e8c741                spal_CholkCg
+                0xffffffffa1e8c7d1                spal_CipherCountInit
+                0xffffffffa1e8c7f1                spal_CipherStart
+                0xffffffffa1e8c841                spal_CipherCipherNb
+                0xffffffffa1e8c891                spal_CipherDecipherNb
+                0xffffffffa1e8c8c1                spal_CipherA53CountInit
+                0xffffffffa1e8c911                spal_CipherA53Start
+                0xffffffffa1e8c941                spal_CipherCipherA53Nb
+                0xffffffffa1e8c971                spal_CipherDecipherA53Nb
+                0xffffffffa1e8c9d1                spal_CordicAngle
+                0xffffffffa1e8ca01                spal_XcorBmmlZf
+                0xffffffffa1e8ca81                spal_XcorComplexPower16
+                0xffffffffa1e8cb01                spal_XcorComplexPower32
+                0xffffffffa1e8cb51                spal_XcorDerotate
+                0xffffffffa1e8cbd1                spal_XcorDcIqCompensate
+                0xffffffffa1e8cc41                spal_XcorSrecPSK8
+                0xffffffffa1e8ccd1                spal_XcorComplexConvolution
+                0xffffffffa1e8cd91                spal_XcorComplexMatrixMultiply
+                0xffffffffa1e8ce31                spal_ExcorIQShift
+                0xffffffffa1e8ce81                spal_ExcorEgprsRotate
+                0xffffffffa1e8cf01                spal_XcorFastConvolutionInit
+                0xffffffffa1e8cf31                spal_XcorFastConvolutionSet
+                0xffffffffa1e8cf71                spal_XcorFastMatrixMultiplySet
+                0xffffffffa1e8cff1                spal_XcorFastMatrixMultiplyInit
+                0xffffffffa1e8d021                spal_XcorFastMatrixMultiplyS
+                0xffffffffa1e8d061                spal_XcorFastMatrixMultiply
+                0xffffffffa1e8d0f1                spal_XcorFastConvolution
+                0xffffffffa1e8d181                spal_ExcorIrRecombine
+                0xffffffffa1e8d510                spal_DbgGdbPrintf
+                0xffffffffa1e8d521                spal_IfcTxFifoReset
+                0xffffffffa1e8d531                spal_IfcTxFifoSetup
+                0xffffffffa1e8d551                spal_IfcDisableRf
+                0xffffffffa1e8d561                spal_IfcParamRf
+                0xffffffffa1e8d581                spc_AHSencoding
+                0xffffffffa1e8d991                spc_AFSencoding
+                0xffffffffa1e8dc61                spc_UpdateAmrCfg
+                0xffffffffa1e8ddc1                spc_RetrieveCodecMode
+                0xffffffffa1e8de81                spc_AmrEncode
+                0xffffffffa1e8e0b1                spc_AmrFrameFilter
+                0xffffffffa1e8e0e1                spc_UpdateCMR
+                0xffffffffa1e8e1b1                spc_AHSdecoding
+                0xffffffffa1e8e851                spc_AFSdecoding
+                0xffffffffa1e8ecd1                spc_AmrRatscch
+                0xffffffffa1e8ee11                spc_AmrDecode
+                0xffffffffa1e8f421                bb_prog_rx_win
+                0xffffffffa1e8f681                spc_IrqHandler
+                0xffffffffa1e8fad1                spc_SppToMboxSpeechMode
+                0xffffffffa1e8fb31                spc_CheckLoopMode
+                0xffffffffa1e8fc91                spc_BfiFilter
+                0xffffffffa1e8fe71                spc_SetFacch
+                0xffffffffa1e8ff91                spc_VocBfiFilter
+                0xffffffffa1e90111                spc_UpdateSpeechDec
+                0xffffffffa1e90281                spc_TCHRxProcess
+                0xffffffffa1e90b21                spc_CCHRxProcess
+                0xffffffffa1e91321                spc_NBurstProcess
+                0xffffffffa1e91381                spc_SchProcess
+                0xffffffffa1e91461                spc_MonitoringProcess
+                0xffffffffa1e914c1                spc_FcchProcess
+                0xffffffffa1e91621                spc_RxProcess
+                0xffffffffa1e918b1                spc_GnrlReset
+                0xffffffffa1e91c01                spc_SchedulerMain
+                0xffffffffa1e91de1                spc_MboxToSppSpeechMode
+                0xffffffffa1e91ed1                spc_UpdateSpeechEnc
+                0xffffffffa1e920b1                spc_ResetCodec
+                0xffffffffa1e921a1                spc_DataFacch
+                0xffffffffa1e922b1                spc_DataEncode
+                0xffffffffa1e92421                spc_TCHTxProcess
+                0xffffffffa1e92891                spc_CCHTxProcess
+                0xffffffffa1e92ab1                spc_RACHTxProcess
+                0xffffffffa1e92bb1                spc_TxProcess
+                0xffffffffa1e92c71                spc_UpdateOnFint
+                0xffffffffa1e92f51                atoi
+                0xffffffffa1e92f91                memchr
+                0xffffffffa1e92fd1                memcmp
+                0xffffffffa1e93000                memcpy
+                0xffffffffa1e93300                memcpyb
+                0xffffffffa1e93331                memmove
+                0xffffffffa1e93471                memscan
+                0xffffffffa1e93490                memset
+                0xffffffffa1e93581                strcat
+                0xffffffffa1e935a1                strchr
+                0xffffffffa1e935d1                strrchr
+                0xffffffffa1e935f1                strcmp
+                0xffffffffa1e93631                strcpy
+                0xffffffffa1e93651                strlen
+                0xffffffffa1e93671                strnlen
+                0xffffffffa1e93691                strncmp
+                0xffffffffa1e936d1                strncpy
+                0xffffffffa1e93711                strsep
+                0xffffffffa1e93751                strstr
+
+.bcpu_rom_rodata
+                0xffffffff81e937b0     0x46f0
+ *bcpu_rom_CHIP.elf(.bcpu_rom_rodata)
+ .bcpu_rom_rodata
+                0xffffffff81e937b0     0x46f0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/bcpu_rom_CHIP.elf
+                0xffffffff81e937b0                bcpu_romCsString
+                0xffffffff81e937dc                bcpu_romDT
+                0xffffffff81e9381c                g_sppCsCrcParam
+                0xffffffff81e9398c                g_sppCsConvParam
+                0xffffffff81e93afc                g_sppCsSrcParam
+                0xffffffff81e93b8c                g_sppVitacDecParam
+                0xffffffff81e93c44                g_sppVitacPolyres
+                0xffffffff81e93c64                g_sppInputLengthBitAfs
+                0xffffffff81e93c6c                g_sppAfsReorderTables
+                0xffffffff81e93c8c                g_sppInputLengthBitAhs
+                0xffffffff81e93c94                g_sppAhsReorderTables
+                0xffffffff81e93cac                g_sppMatrixHr
+                0xffffffff81e93d8c                g_sppMatrixFrInv
+                0xffffffff81e93f94                g_sppMatrixEfr1
+                0xffffffff81e93fd8                g_sppMatrixEfr1Inv
+                0xffffffff81e9401c                g_sppMatrixEfr2Inv
+                0xffffffff81e94214                g_sppNbFwequStartSt
+                0xffffffff81e94234                g_sppNbBwequStartSt
+                0xffffffff81e94254                g_sppGsmTscSch
+                0xffffffff81e9425c                g_sppGsmTscAburst
+                0xffffffff81e94264                g_sppGsmTscAburst_1
+                0xffffffff81e9426c                g_sppGsmTscAburst_2
+                0xffffffff81e94274                g_sppGsmTscNburst
+                0xffffffff81e942f4                g_sppSaicTable
+                0xffffffff81e9433c                g_sppSaicPMatrixTable
+                0xffffffff81e94354                g_sppUsfCs2Cs3
+                0xffffffff81e9435c                g_spp_UsfCs4
+                0xffffffff81e9436c                g_sppIcSidRatscch
+                0xffffffff81e94374                g_sppIcAfsSpeech
+                0xffffffff81e9437c                g_sppIcAhsSpeech
+                0xffffffff81e94384                g_sppImAfsSid
+                0xffffffff81e943a0                g_sppImAhsSid
+                0xffffffff81e943c0                g_sppImRatscch
+                0xffffffff81e943e0                g_sppAfsSidMarker
+                0xffffffff81e943fc                g_sppAhsSidMarker
+                0xffffffff81e94418                g_sppRatscchMarker
+                0xffffffff81e94434                g_sppConvOutLengthBitAhs
+                0xffffffff81e9443c                g_sppConvOutMaskAhs
+                0xffffffff81e94454                g_spp_8TapChestTab
+                0xffffffff81e94dd4                g_sppChestTab
+                0xffffffff81e96a30                g_sppCsPuncturingTable
+                0xffffffff81e97684                g_sppPCH_vector_a
+                0xffffffff81e977dc                g_sppPCH_vector_b1
+                0xffffffff81e97830                g_sppPCH_vector_b2
+                0xffffffff81e97884                g_sppPCH_vector_b3
+                0xffffffff81e978d8                g_sppPCH_vector_b4
+                0xffffffff81e9792c                g_sppPCH_b_pos
+                0xffffffff81e97980                g_sppPCH_size_vector_b
+                0xffffffff81e979bc                g_sppMapVersion
+                0xffffffff81e97a10                g_spalMapAccess
+                0xffffffff81e97a14                g_spalMapVersion
+                0xffffffff81e97a5c                LUT_8PSK
+                0xffffffff81e97a7c                PSK8_ROTATE
+                0xffffffff81e97abc                GMSK_ROTATE
+                0xffffffff81e97afc                spal_GdbGBreak
+                0xffffffff81e97ba4                AFSfilterCI
+                0xffffffff81e97c70                AHSfilterCI
+                0xffffffff81e97cd8                MutedFrame_AMR
+                0xffffffff81e97ce0                MutedFrame_HR
+                0xffffffff81e97cf0                MutedFrame_EFR
+                0xffffffff81e97d10                MutedFrame_FR
+                0xffffffff81e97d34                spcSizeFromMCS
+                0xffffffff81e97d84                g_spcMapVersion
+                0xffffffff81e97d94                _ctype
+
+.bbsram         0xffffffff81980000     0x1e00
+ *bcpu_rom_CHIP.elf(.bbsram)
+ .bbsram        0xffffffff81980000     0x1e00 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/bcpu_rom_CHIP.elf
+                0xffffffff81980000                g_spcItlvBufTabSaic
+                0xffffffff81980000                _bb_sram_romed_cached_start
+                0xffffffff81980a00                g_spcItlvBufTab
+                0xffffffff81981920                g_spcCtxStruct
+                0xffffffff81981920                _bb_sram_romed_itlv_buf_end
+
+.bbsramu        0xffffffffa1981e00     0x1bf0
+ *bcpu_rom_CHIP.elf(.bbsramu)
+ .bbsramu       0xffffffffa1981e00     0x1bf0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/bcpu_rom_CHIP.elf
+                0xffffffffa1981e00                g_spcStaticBufTabSaic
+                0xffffffffa1981e00                _mbbsramu
+                0xffffffffa1981e00                _bb_sram_romed_uncached_start
+                0xffffffffa19822f0                g_spcStaticBufTab
+
+.bbsram_globals
+                0xffffffff81986640      0x1b9
+ *bcpu_rom_CHIP.elf(.bbsram_globals)
+ .bbsram_globals
+                0xffffffff81986640      0x1b9 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/bcpu_rom_CHIP.elf
+                0xffffffff81986640                _bb_sram_romed_globals_start
+                0xffffffff81986640                bcpu_error_code
+                0xffffffff81986644                bcpu_error_status
+                0xffffffff81986648                bcpu_sp_context
+                0xffffffff8198664c                bcpu_stack_base
+                0xffffffff81986650                bcpu_main_entry
+                0xffffffff81986654                spal_GdbGData
+                0xffffffff8198665c                g_spalIrqRegistry
+                0xffffffff81986660                g_spalProfileControl
+                0xffffffff8198668c                g_spcAmrState
+                0xffffffff81986694                g_spcCtxAmrCfgTxChg
+                0xffffffff81986698                g_spcRxCountTcu
+                0xffffffff8198669c                g_spcSwTxFifo
+                0xffffffff81986788                g_sppGlobalParams
+                0xffffffff819867c0                g_sppA53CountInit
+                0xffffffff819867c4                g_sppCipherCipherA53Nb
+                0xffffffff819867c8                g_sppCipherDecipherA53Nb
+                0xffffffff819867f8                g_sppFullBurstReady
+                0xffffffff819867f9                _bb_sram_romed_globals_end
+
+.mailbox        0xffffffffa1b00580      0x280
+ *bcpu_rom_CHIP.elf(.mailbox)
+ .mailbox       0xffffffffa1b00580      0x280 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/bcpu_rom_CHIP.elf
+                0xffffffffa1b00580                g_mailbox
+                0xffffffffa1b00580                _dualport_sram_romed_mbx_start
+
+.bcpu_rom_version_number
+                0xffffffff81e97ff8        0x4
+ *bcpu_rom_CHIP.elf(.bcpu_rom_version_number)
+ .bcpu_rom_version_number
+                0xffffffff81e97ff8        0x4 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/bcpu_rom_CHIP.elf
+                0xffffffff81e97ff8                g_bcpuRomVersionNumber
+                0xffffffff81e97ff8                _bcpu_rom_version_number
+
+.bcpu_rom.crc   0xffffffff81e97ffc        0x4
+ *bcpu_rom_CHIP.elf(.bcpu_rom.crc)
+ .bcpu_rom.crc  0xffffffff81e97ffc        0x4 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/platform/chip/rom/8955/lib/bcpu_rom_CHIP.elf
+                0xffffffff81e97ffc                __bcpu_rom_crc
+                0xffffffff88011620                _bcpu_rom_flash_end_location = _bcpu_rom_flash_start_location
+                0xffffffff88011620                _bb_sram_flash_start_location = _bcpu_rom_flash_end_location
+                0xffffffff81980000                . = 0xffffffff81980000
+                0xffffffff81980000                _bb_sram_start = .
+                0x0000000000000000                _bb_sram_cached_size = 0x0
+                0x0000000000000000                _bb_sram_uncached_size = 0x0
+                0xffffffff819867f9                . = _bb_sram_romed_globals_end
+
+.bbsram_globals_not_romed
+                0x00000000000001b9        0x0
+                0x00000000000001b9                _bb_sram_not_romed_globals_start = .
+ *(BB_SRAM_GLOBALS)
+ *(.bbsram_globals)
+                0x00000000000001b9                _bb_sram_not_romed_globals_end = .
+                0x0000000000000001                ASSERT ((0xffffffff81986800 >= ABSOLUTE (_bb_sram_not_romed_globals_end)), BBSRAM not romed globals overflow out of BBSRAM.)
+                0x0000000000000000                _bb_sram_var_size = (_bb_sram_cached_size + _bb_sram_uncached_size)
+                0xffffffff81980000                _bb_sram_var_end = (_bb_sram_start + _bb_sram_var_size)
+                0xffffffff88011620                _bb_sram_patch_flash_start = (_bb_sram_flash_start_location + _bb_sram_var_size)
+                0xffffffff81986800                . = 0xffffffff81986800
+                0xffffffff81986800                _bb_sram_patch_start = .
+
+.bbsram_patch_text
+                0xffffffff81986800     0x1070 load address 0xffffffff88011620
+                0xffffffff81986800                _bb_sram_patch_text_start = .
+ *(.bbsram_patch_text)
+ .bbsram_patch_text
+                0xffffffff81986800      0x818 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+                0xffffffff81986801                patch_spc_CCHRxProcess
+ .bbsram_patch_text
+                0xffffffff81987018      0x82c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+                0xffffffff81987019                patch_spp_EqualizeNBurstSaic
+                0xffffffff81987431                patch_spp_EqualizeNBurst
+ *(.bbsram_patch_rodata)
+ *(.rdata .rodata .rodata.str1.4 .rodata.* .rodata1)
+ .rodata.C.23.3901
+                0xffffffff81987844        0x8 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .rodata.C.22.3900
+                0xffffffff8198784c        0x8 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .rodata.C.0.3375
+                0xffffffff81987854       0x10 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+                0xffffffff81987870                . = ALIGN (0x10)
+ *fill*         0xffffffff81987864        0xc 00
+                0xffffffff81987870                _bb_sram_patch_text_end = .
+                0x0000000000001070                _bb_sram_patch_text_size = (_bb_sram_patch_text_end - _bb_sram_patch_text_start)
+
+.bbsram_patch_data
+                0xffffffff81987870       0x30 load address 0xffffffff88012690
+                0xffffffff81987870                _bb_sram_patch_data_start = .
+ *(.bbsram_patch_data)
+ .bbsram_patch_data
+                0xffffffff81987870       0x2c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+                0xffffffff81987870                Copy_ChModeSaic
+                0xffffffff81987874                Rx_q_CCHSaic
+                0xffffffff81987894                Rx_CS_Saic
+                0xffffffff81987898                decodedUsfSaic
+ .bbsram_patch_data
+                0xffffffff8198789c        0x4 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+                0xffffffff8198789c                gUsfDistance
+                0xffffffff8198789e                gDistance_max
+                0xffffffff819878a0                . = ALIGN (0x10)
+                0xffffffff819878a0                _bb_sram_patch_data_end = .
+                0x0000000000000030                _bb_sram_patch_data_size = (_bb_sram_patch_data_end - _bb_sram_patch_data_start)
+                0xffffffffa19878a0                . = (. + 0x20000000)
+
+.bbsram_patch_ucdata
+                0xffffffffa19878a0      0x320 load address 0xffffffff880126c0
+                0xffffffffa19878a0                _bb_sram_patch_ucdata_start = .
+ *(.bbsram_patch_ucdata)
+ .bbsram_patch_ucdata
+                0xffffffffa19878a0        0x1 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+                0xffffffffa19878a0                g_RxSaicEnFlag
+ *fill*         0xffffffffa19878a1        0x3 00
+ .bbsram_patch_ucdata
+                0xffffffffa19878a4      0x31c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+                0xffffffffa19878a4                NBlockDataOutSaic
+                0xffffffffa19879bc                g_rx_Saic_Bfi_Last_ind
+                0xffffffffa19879c0                SACCHSaic
+                0xffffffffa1987bc0                . = ALIGN (0x10)
+                0xffffffffa1987bc0                _bb_sram_patch_ucdata_end = .
+                0x0000000000000320                _bb_sram_patch_ucdata_size = (_bb_sram_patch_ucdata_end - _bb_sram_patch_ucdata_start)
+                0xffffffff81987bc0                . = (. - 0x20000000)
+                0xffffffff81987bc0                _bb_sram_patch_end = .
+                0x00000000000013c0                _bb_sram_patch_size = (_bb_sram_patch_end - _bb_sram_patch_start)
+                0xffffffff880129e0                _bb_sram_patch_flash_end = (_bb_sram_patch_flash_start + _bb_sram_patch_size)
+                0xffffffff880129e0                _bb_sram_flash_end_location = _bb_sram_patch_flash_end
+                0xffffffff81987bc0                _bb_sram_patch_bss_start = .
+                0xffffffffa1987bc0                . = (. + 0x20000000)
+
+.bbsram_patch_ucbss
+                0xffffffffa1987bc0      0x100
+ *(.bbsram_patch_ucbss)
+ .bbsram_patch_ucbss
+                0xffffffffa1987bc0      0x100 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+                0xffffffffa1987bc0                g_spalProfileBuffer
+                0xffffffffa1987cc0                . = ALIGN (0x10)
+                0xffffffff81987cc0                . = (. - 0x20000000)
+
+.bbsram_patch_bss
+                0xffffffff81987cc0        0x0
+ *(.bbsram_patch_bss)
+                0xffffffff81987cc0                . = ALIGN (0x10)
+                0xffffffff81987cc0                _bb_sram_patch_bss_end = .
+                0x0000000000000100                _bb_sram_patch_bss_size = (_bb_sram_patch_bss_end - _bb_sram_patch_bss_start)
+                0x0000000000000001                ASSERT ((0xffffffff81988000 >= ABSOLUTE (_bb_sram_patch_bss_end)), BBSRAM patch code overflow out of BBSRAM.)
+                0xffffffff880129e0                _bcpu_dualport_sram_flash_start_location = _bb_sram_flash_end_location
+                0xffffffff81b00000                . = 0xffffffff81b00000
+                0xffffffff81b00000                _bcpu_dualport_sram_start = .
+
+.bcpu_dualport_sram_text
+                0xffffffff81b00000        0x0 load address 0xffffffff880129e0
+                0xffffffff81b00000                _bcpu_dualport_sram_text_start = .
+ *(.dualport_sram_text)
+ *(.dualport_sram_rodata)
+                0xffffffff81b00000                . = ALIGN (0x10)
+                0xffffffff81b00000                _bcpu_dualport_sram_text_end = .
+                0x0000000000000000                _bcpu_dualport_sram_text_size = (_bcpu_dualport_sram_text_end - _bcpu_dualport_sram_text_start)
+
+.bcpu_dualport_sram_data
+                0xffffffff81b00000        0x0 load address 0xffffffff880129e0
+                0xffffffff81b00000                _bcpu_dualport_sram_cached_data_start = .
+ *(.dualport_sram_data)
+                0xffffffff81b00000                . = ALIGN (0x10)
+                0xffffffff81b00000                _bcpu_dualport_sram_cached_data_end = .
+                0x0000000000000000                _bcpu_dualport_sram_cached_data_size = (_bcpu_dualport_sram_cached_data_end - _bcpu_dualport_sram_cached_data_start)
+                0xffffffffa1b00000                . = (. + 0x20000000)
+
+.bcpu_dualport_sram_ucdata
+                0xffffffffa1b00000        0x0 load address 0xffffffff880129e0
+                0xffffffffa1b00000                _bcpu_dualport_sram_uncached_data_start = .
+ *(.dualport_sram_ucdata)
+                0xffffffffa1b00000                . = ALIGN (0x10)
+                0xffffffffa1b00000                _bcpu_dualport_sram_uncached_data_end = .
+                0x0000000000000000                _bcpu_dualport_sram_uncached_data_size = (_bcpu_dualport_sram_uncached_data_end - _bcpu_dualport_sram_uncached_data_start)
+                0xffffffff81b00000                . = (. - 0x20000000)
+                0xffffffff81b00000                _bcpu_dualport_sram_end = .
+                0x0000000000000000                _bcpu_dualport_sram_size = (_bcpu_dualport_sram_end - _bcpu_dualport_sram_start)
+                0xffffffff880129e0                _bcpu_dualport_sram_flash_end_location = (_bcpu_dualport_sram_flash_start_location + _bcpu_dualport_sram_size)
+                0xffffffff81b00000                _bcpu_dualport_bss_start = .
+                0xffffffffa1b00000                . = (. + 0x20000000)
+
+.bcpu_dualport_sram_ucbss
+                0xffffffffa1b00000        0x0
+ *(.dualport_sram_ucbss)
+                0xffffffffa1b00000                . = ALIGN (0x10)
+                0xffffffff81b00000                . = (. - 0x20000000)
+
+.bcpu_dualport_sram_bss
+                0xffffffff81b00000        0x0
+ *(.dualport_sram_bss)
+                0xffffffff81b00000                . = ALIGN (0x10)
+                0xffffffff81b00000                _bcpu_dualport_bss_end = .
+                0x0000000000000000                _bcpu_dualport_bss_size = (_bcpu_dualport_bss_end - _bcpu_dualport_bss_start)
+                0x0000000000000001                ASSERT ((0xffffffff81b00580 >= ABSOLUTE (_bcpu_dualport_bss_end)), BCPU DUALPORT SRAM overflow.)
+                0xffffffff880129e0                _bcpu_sys_sram_flash_start_location = _bcpu_dualport_sram_flash_end_location
+                0xffffffff81c00680                . = 0xffffffff81c00680
+                0xffffffff81c00680                _bcpu_sys_sram_start = .
+
+.bcpu_sramtext  0xffffffff81c00680     0x1450 load address 0xffffffff880129e0
+                0xffffffff81c00680                _bcpu_sys_sram_txt_start = .
+ *(.sramtext .sramrodata)
+ .sramtext      0xffffffff81c00680       0x1c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+                0xffffffff81c00681                spc_CchDump
+ .sramtext      0xffffffff81c0069c      0x3fc D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+                0xffffffff81c0069d                patch_spc_UpdateSaicStatus
+                0xffffffff81c00739                patch_spc_IrqHandler
+ .sramtext      0xffffffff81c00a98      0xa10 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+                0xffffffff81c00a99                patch_spc_BfiFilter
+                0xffffffff81c00bd9                patch_spc_TCHRxProcess
+ .sramtext      0xffffffff81c014a8      0x61c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+                0xffffffff81c014a9                patch_spp_GetUSF1
+                0xffffffff81c015a9                patch_spp_SearchFcch
+                0xffffffff81c01ad0                . = ALIGN (0x10)
+ *fill*         0xffffffff81c01ac4        0xc 00
+                0xffffffff81c01ad0                _bcpu_sys_sram_txt_end = .
+                0x0000000000001450                _bcpu_sys_sram_txt_size = (_bcpu_sys_sram_txt_end - _bcpu_sys_sram_start)
+
+.bcpu_sramdata  0xffffffff81c01ad0        0x0 load address 0xffffffff88013e30
+                0xffffffff81c01ad0                _bcpu_sys_sram_cached_start = .
+ *(.sramdata)
+                0xffffffff81c01ad0                . = ALIGN (0x10)
+                0xffffffff81c01ad0                _bcpu_sys_sram_cached_end = .
+                0x0000000000000000                _bcpu_sys_sram_cached_size = (_bcpu_sys_sram_cached_end - _bcpu_sys_sram_cached_start)
+                0xffffffffa1c01ad0                . = (. + 0x20000000)
+
+.bcpu_sramucdata
+                0xffffffffa1c01ad0       0x40 load address 0xffffffff88013e30
+                0xffffffffa1c01ad0                _bcpu_sys_sram_uncached_start = .
+ *(.sramucdata)
+ .sramucdata    0xffffffffa1c01ad0        0xa D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+                0xffffffffa1c01ad0                g_mailbox_pal2spc_RxBufInd
+                0xffffffffa1c01ad2                UsfDistanceNormal
+                0xffffffffa1c01ad4                DistanceMaxNormal
+                0xffffffffa1c01ad6                UsfDistanceSaic
+                0xffffffffa1c01ad8                DistanceMaxSaic
+ *fill*         0xffffffffa1c01ada        0x2 00
+ .sramucdata    0xffffffffa1c01adc       0x2c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+                0xffffffffa1c01adc                g_mailbox_pal2spc_rxBandInd
+                0xffffffffa1c01b10                . = ALIGN (0x10)
+ *fill*         0xffffffffa1c01b08        0x8 00
+                0xffffffffa1c01b10                _bcpu_sys_sram_uncached_end = .
+                0x0000000000000040                _bcpu_sys_sram_uncached_size = (_bcpu_sys_sram_uncached_end - _bcpu_sys_sram_uncached_start)
+                0xffffffff81c01b10                . = (. - 0x20000000)
+                0xffffffff81c01b10                _bcpu_sys_sram_end = .
+                0x0000000000001490                _bcpu_sys_sram_size = (_bcpu_sys_sram_end - _bcpu_sys_sram_start)
+                0xffffffff88013e70                _bcpu_sys_sram_flash_end_location = (_bcpu_sys_sram_flash_start_location + _bcpu_sys_sram_size)
+                0xffffffff81c01b10                _bcpu_sys_sram_bss_start = .
+                0xffffffffa1c01b10                . = (. + 0x20000000)
+
+.bcpu_sramucbss
+                0xffffffffa1c01b10        0x0
+ *(.sramucbss)
+                0xffffffffa1c01b10                . = ALIGN (0x10)
+                0xffffffff81c01b10                . = (. - 0x20000000)
+
+.bcpu_srambss   0xffffffff81c01b10        0x0
+ *(.srambss)
+                0xffffffff81c01b10                . = ALIGN (0x10)
+                0xffffffff81c01b10                _bcpu_sys_sram_bss_end = .
+                0x0000000000000000                _bcpu_sys_sram_bss_size = (_bcpu_sys_sram_bss_end - _bcpu_sys_sram_bss_start)
+                0xffffffff81c01b10                _bcpu_sys_sram_end = _bcpu_sys_sram_bss_end
+                0x0000000000000001                ASSERT ((0xffffffff81c0f17c > ABSOLUTE (_bcpu_sys_sram_bss_end)), BCPU Internal SRAM overflow !)
+                0xffffffff88013e70                _bcpu_ram_flash_start_location = _bcpu_sys_sram_flash_end_location
+                0xffffffff82000a00                . = _bcpu_ram_available_base
+                0xffffffff82000a00                _bcpu_ram_start = .
+
+.bcpu_ramtext   0xffffffff82000a00        0x0 load address 0xffffffff88013e70
+                0xffffffff82000a00                _bcpu_ram_txt_start = .
+ *(.ram)
+                0xffffffff82000a00                . = ALIGN (0x10)
+                0xffffffff82000a00                _bcpu_ram_txt_end = .
+                0x0000000000000000                _bcpu_ram_txt_size = (_bcpu_ram_txt_end - _bcpu_ram_start)
+                0xffffffff88013e70                _bcpu_ram_data_load_start = (_bcpu_ram_flash_start_location + _bcpu_ram_txt_size)
+                0xffffffff82000a00                _bcpu_ram_data_start = .
+
+.bcpu_data      0xffffffff82000a00        0x0 load address 0xffffffff88013e70
+                0xffffffff82000a00                _bcpu_ram_cached_start = .
+ *(.data .data.* .sdata .sdata.* .data1)
+                0xffffffff82000a00                . = ALIGN (0x10)
+                0xffffffff82000a00                _bcpu_ram_cached_end = .
+                0x0000000000000000                _bcpu_ram_cached_size = (_bcpu_ram_cached_end - _bcpu_ram_cached_start)
+                0xffffffffa2000a00                . = (. + 0x20000000)
+
+.bcpu_ucdata    0xffffffffa2000a00        0x0 load address 0xffffffff88013e70
+                0xffffffffa2000a00                _bcpu_ram_uncached_start = .
+ *(.ucdata)
+                0xffffffffa2000a00                . = ALIGN (0x10)
+                0xffffffffa2000a00                _bcpu_ram_uncached_end = .
+                0x0000000000000000                _bcpu_ram_uncached_size = (_bcpu_ram_uncached_end - _bcpu_ram_uncached_start)
+                0xffffffff82000a00                . = (. - 0x20000000)
+                0xffffffff82000a00                _bcpu_ram_data_end = .
+                0x0000000000000000                _bcpu_ram_data_size = (_bcpu_ram_data_end - _bcpu_ram_data_start)
+                0xffffffff88013e70                _bcpu_ram_data_load_end = (_bcpu_ram_data_load_start + _bcpu_ram_data_size)
+                0xffffffff82000a00                _bcpu_ram_end = .
+                0x0000000000000000                _bcpu_ram_size = (_bcpu_ram_end - _bcpu_ram_start)
+                0xffffffff88013e70                _bcpu_ram_flash_end_location = (_bcpu_ram_flash_start_location + _bcpu_ram_size)
+                0xffffffff82000a00                _bcpu_ram_bss_start = .
+                0xffffffffa2000a00                . = (. + 0x20000000)
+
+.bcpu_ucbss     0xffffffffa2000a00        0x0
+ *(.ucbss)
+                0xffffffffa2000a00                . = ALIGN (0x10)
+                0xffffffff82000a00                . = (. - 0x20000000)
+
+.bcpu_bss       0xffffffff82000a00       0x10
+ *(.bss .bss.* .sbss .sbss.*)
+ .bss.g_patchUsed
+                0xffffffff82000a00        0x4 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+                0xffffffff82000a10                . = ALIGN (0x10)
+ *fill*         0xffffffff82000a04        0xc 00
+                0xffffffff82000a10                _bcpu_ram_bss_end = .
+                0x0000000000000010                _bcpu_ram_bss_size = (_bcpu_ram_bss_end - _bcpu_ram_bss_start)
+                0x0000000000000001                ASSERT ((0xffffffff82400000 > ABSOLUTE (_bcpu_ram_bss_end)), BCPU External RAM overflow !)
+                0xffffffff88013e70                . = _bcpu_ram_flash_end_location
+
+.bcpu_flash_end
+                0xffffffff88013e70       0x10
+                0xffffffff88013e70        0x4 LONG 0x0
+                0xffffffff88013e80                . = ALIGN (0x10)
+ *fill*         0xffffffff88013e74        0xc 00
+                0xffffffff88013e80                _bcpu_flash_end = .
+                0x0000000000000001                ASSERT ((0xffffffff88400000 > ABSOLUTE (_bcpu_flash_end)), BCPU Flash overflow: there is no more space available in flash memory.)
+
+.debug
+ *(EXCLUDE_FILE(*.elf) .debug)
+
+.line
+ *(EXCLUDE_FILE(*.elf) .line)
+
+.debug_srcinfo
+ *(EXCLUDE_FILE(*.elf) .debug_srcinfo)
+
+.debug_sfnames
+ *(EXCLUDE_FILE(*.elf) .debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x128
+ *(EXCLUDE_FILE(*.elf) .debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .debug_aranges
+                0x0000000000000028       0x20 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .debug_aranges
+                0x0000000000000048       0x28 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .debug_aranges
+                0x0000000000000070       0x30 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .debug_aranges
+                0x00000000000000a0       0x28 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .debug_aranges
+                0x00000000000000c8       0x28 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .debug_aranges
+                0x00000000000000f0       0x38 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+
+.debug_pubnames
+                0x0000000000000000      0x3b0
+ *(EXCLUDE_FILE(*.elf) .debug_pubnames)
+ .debug_pubnames
+                0x0000000000000000       0x68 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .debug_pubnames
+                0x0000000000000068       0x21 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .debug_pubnames
+                0x0000000000000089       0x6a D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .debug_pubnames
+                0x00000000000000f3      0x166 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .debug_pubnames
+                0x0000000000000259       0x5d D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .debug_pubnames
+                0x00000000000002b6       0x91 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .debug_pubnames
+                0x0000000000000347       0x69 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+
+.debug_info     0x0000000000000000     0xa5f6
+ *(EXCLUDE_FILE(*.elf) .debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x228c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .debug_info    0x000000000000228c       0x9a D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .debug_info    0x0000000000002326     0x21d5 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .debug_info    0x00000000000044fb     0x2a46 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .debug_info    0x0000000000006f41     0x1c14 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .debug_info    0x0000000000008b55     0x1668 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .debug_info    0x000000000000a1bd      0x439 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+
+.debug_abbrev   0x0000000000000000      0xcaf
+ *(EXCLUDE_FILE(*.elf) .debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x1f0 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .debug_abbrev  0x00000000000001f0       0x41 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .debug_abbrev  0x0000000000000231      0x232 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .debug_abbrev  0x0000000000000463      0x29b D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .debug_abbrev  0x00000000000006fe      0x260 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .debug_abbrev  0x000000000000095e      0x21f D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .debug_abbrev  0x0000000000000b7d      0x132 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+
+.debug_line     0x0000000000000000     0x1832
+ *(EXCLUDE_FILE(*.elf) .debug_line)
+ .debug_line    0x0000000000000000      0x42b D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .debug_line    0x000000000000042b       0x4f D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .debug_line    0x000000000000047a      0x3f3 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .debug_line    0x000000000000086d      0x678 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .debug_line    0x0000000000000ee5      0x43d D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .debug_line    0x0000000000001322      0x3c4 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .debug_line    0x00000000000016e6      0x14c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+
+.debug_frame    0x0000000000000000      0x244
+ *(EXCLUDE_FILE(*.elf) .debug_frame)
+ .debug_frame   0x0000000000000000       0x48 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .debug_frame   0x0000000000000048       0x2c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .debug_frame   0x0000000000000074       0x48 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .debug_frame   0x00000000000000bc       0x70 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .debug_frame   0x000000000000012c       0x58 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .debug_frame   0x0000000000000184       0x50 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .debug_frame   0x00000000000001d4       0x70 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+
+.debug_str      0x0000000000000000     0x2cb6
+ *(EXCLUDE_FILE(*.elf) .debug_str)
+ .debug_str     0x0000000000000000     0x1a6c D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+                                       0x1b75 (size before relaxing)
+ .debug_str     0x0000000000001a6c       0x5e D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+                                        0x100 (size before relaxing)
+ .debug_str     0x0000000000001aca      0x2ca D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+                                       0x1923 (size before relaxing)
+ .debug_str     0x0000000000001d94      0x981 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+                                       0x1ede (size before relaxing)
+ .debug_str     0x0000000000002715      0x189 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+                                       0x1442 (size before relaxing)
+ .debug_str     0x000000000000289e      0x1f5 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+                                       0x12ba (size before relaxing)
+ .debug_str     0x0000000000002a93      0x223 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+                                        0x2e3 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x1011
+ *(EXCLUDE_FILE(*.elf) .debug_loc)
+ .debug_loc     0x0000000000000000       0xf1 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+ .debug_loc     0x00000000000000f1       0x1f D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .debug_loc     0x0000000000000110      0x121 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .debug_loc     0x0000000000000231      0x45d D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .debug_loc     0x000000000000068e      0x2dd D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .debug_loc     0x000000000000096b      0x4a8 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .debug_loc     0x0000000000000e13      0x1fe D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+
+.debug_macinfo
+ *(EXCLUDE_FILE(*.elf) .debug_macinfo)
+
+.debug_weaknames
+ *(EXCLUDE_FILE(*.elf) .debug_weaknames)
+
+.debug_funcnames
+ *(EXCLUDE_FILE(*.elf) .debug_funcnames)
+
+.debug_typenames
+ *(EXCLUDE_FILE(*.elf) .debug_typenames)
+
+.debug_varnames
+ *(EXCLUDE_FILE(*.elf) .debug_varnames)
+
+.stab
+ *(EXCLUDE_FILE(*.elf) .stab)
+
+.stabstr
+ *(EXCLUDE_FILE(*.elf) .stabstr)
+
+.stab.excl
+ *(EXCLUDE_FILE(*.elf) .stab.excl)
+
+.stab.exclstr
+ *(EXCLUDE_FILE(*.elf) .stab.exclstr)
+
+.stab.index
+ *(EXCLUDE_FILE(*.elf) .stab.index)
+
+.stab.indexstr
+ *(EXCLUDE_FILE(*.elf) .stab.indexstr)
+
+.comment        0x0000000000000000       0x25
+ *(EXCLUDE_FILE(*.elf) .comment)
+ .comment       0x0000000000000000       0x25 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a(spc_main.o)
+                                         0x26 (size before relaxing)
+ .comment       0x0000000000000000       0x26 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_open.o)
+ .comment       0x0000000000000000       0x26 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_irq_handler.o)
+ .comment       0x0000000000000000       0x26 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spc_rx.o)
+ .comment       0x0000000000000000       0x26 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_equalizer.o)
+ .comment       0x0000000000000000       0x26 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch_spp_gsm_rx.o)
+ .comment       0x0000000000000000       0x26 D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a(patch.o)
+
+.gptab.sdata
+ *(.gptab.data)
+ *(.gptab.sdata)
+
+.gptab.sbss
+ *(.gptab.bss)
+ *(.gptab.sbss)
+
+/DISCARD/
+ *(*)
+START GROUP
+LOAD D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/base/std/lib\libstd_debug.a
+LOAD D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/bcpu/lib\libbcpu_debug.a
+LOAD D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/platform/chip/patch/lib\libpatch_debug.a
+END GROUP
+LOAD D:/Desktop/watch/RDA8955_W17.44_IDH/soft/env/lib/gcc/mips-elf/4.4.2\libgcc.a
+OUTPUT(D:/Desktop/watch/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/bcpu/8955/bcpu_8955_modem_W1744_debug.elf elf32-littlemips)

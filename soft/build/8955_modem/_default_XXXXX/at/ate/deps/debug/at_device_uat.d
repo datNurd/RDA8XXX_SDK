@@ -1,0 +1,5 @@
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/build/8955_modem/_default_/at/ate/obj/debug/at_device_uat.o: \
+ src/at_device_uat.c \
+ E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/target/8955_modem/include/fpconfig.h
+
+E:/RDA8955_DevEnv/RDA8955_W17.44_IDH/soft/target/8955_modem/include/fpconfig.h:

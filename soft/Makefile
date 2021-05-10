@@ -49,30 +49,30 @@ LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_v5.1_dev.a
 LOCAL_LIBS += env/lib/gcc/mips-elf/4.4.2/libgcc.a
 #LOCAL_LIBS += at/thirdpartylibs/NDS/lib/debug/sarft_sign.a
 else
-LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_dev_tc_plus_ml.a
-LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_v5.1_dev.a
+#LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_dev_tc_plus_ml.a
+#LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_v5.1_dev.a
 #LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_debug.a
 #LOCAL_LIBS += application/thirdpartylibs/gbmllib/lib/libgbmllib_debug.a
 LOCAL_LIBS += env/lib/gcc/mips-elf/4.4.2/libgcc.a
-LOCAL_LIB += application/thirdpartylibs/kmxime/lib/libkmxime.a
-LOCAL_LIB += application/thirdpartylibs/scripteasy/lib/libscripteasy.a
+#LOCAL_LIB += application/thirdpartylibs/kmxime/lib/libkmxime.a
+#LOCAL_LIB += application/thirdpartylibs/scripteasy/lib/libscripteasy.a
 endif
 endif
 
 ifeq "$(strip ${MMI_USE_REVERIE_FONT_ENGINE})" "YES"
-LOCAL_LIB += application/thirdpartylibs/reverie/lib/librevfont.a
+#LOCAL_LIB += application/thirdpartylibs/reverie/lib/librevfont.a
 endif
 
 ifeq "$(strip ${MMI_USE_MULTITAP_REVERIE_INPUT})" "YES"
 ifeq "$(strip ${MMI_USE_REVERIE_TOGGLE_KEYMAP})" "YES"
-LOCAL_LIB += application/thirdpartylibs/reverie/lib/librevkeypad.a
+#LOCAL_LIB += application/thirdpartylibs/reverie/lib/librevkeypad.a
 else
 LOCAL_LIB += application/thirdpartylibs/reverie/lib/librevnewkeypad.a
 endif
 endif
 
 ifeq "$(strip ${MMI_USE_SMART_REVERIE_INPUT})" "YES"
-LOCAL_LIB += application/thirdpartylibs/reverie/lib/librevdictionary.a
+#LOCAL_LIB += application/thirdpartylibs/reverie/lib/librevdictionary.a
 endif
 
 ifeq "$(strip ${MMI_SUPPORT_TOUCHPANEL})" "y" 
@@ -81,24 +81,24 @@ ifeq "$(strip ${HAND_WRITING})" "JHWR"
 
 #Chinese,Japannesem, Korea, Thai, Hindi 
 ifeq "$(strip ${HAND_WRITING_LANGUAGE_LIB})" "JT_CHINESE_HINDI_THAI_KOREA_JAPAN" 
-LOCAL_LIBS += application/thirdpartylibs/jEasyWrite_lib/lib/libEL_HZRecog.a
+#LOCAL_LIBS += application/thirdpartylibs/jEasyWrite_lib/lib/libEL_HZRecog.a
 endif
 
 #Europe, Arabic
 ifeq "$(strip ${HAND_WRITING_LANGUAGE_LIB})" "JT_MULTI_LANGUAGE" 
-LOCAL_LIBS += application/thirdpartylibs/jEasyWrite_lib/lib/libmulti_EL_HZRecog.a
+#LOCAL_LIBS += application/thirdpartylibs/jEasyWrite_lib/lib/libmulti_EL_HZRecog.a
 endif
 
 ifeq "$(strip ${HAND_WRITING_LANGUAGE_LIB})" "JT_EJWRITE_UNIONIZE" 
-LOCAL_LIBS += application/thirdpartylibs/jEasyWrite_lib/lib/lib_ejWrite60_HZRecog.a
+#LOCAL_LIBS += application/thirdpartylibs/jEasyWrite_lib/lib/lib_ejWrite60_HZRecog.a
 endif
  
 else
 #default is penpower lib
 ifeq "${CT_RELEASE}" "release"
-LOCAL_LIBS += application/thirdpartylibs/penpower_hwre/lib/libmmi_penpower_hwre_release.a
+#LOCAL_LIBS += application/thirdpartylibs/penpower_hwre/lib/libmmi_penpower_hwre_release.a
 else
-LOCAL_LIBS += application/thirdpartylibs/penpower_hwre/lib/libmmi_penpower_hwre_debug.a
+#LOCAL_LIBS += application/thirdpartylibs/penpower_hwre/lib/libmmi_penpower_hwre_debug.a
 endif   #default penpower
 
 endif   #jhwr
@@ -106,13 +106,13 @@ endif   #jhwr
 endif # touchpanel
 
 ifeq "$(strip ${MMI_SUPPORT_WAPMMS})" "y" 
-LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsb.a
-LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsbpms.a
-LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsbrc5.a
-LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libshared_ssl.a
-LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsslplus.a
-LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsslplusmm.a
-LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsslplusrad.a
+#LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsb.a
+#LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsbpms.a
+#LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsbrc5.a
+#LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libshared_ssl.a
+#LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsslplus.a
+#LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsslplusmm.a
+#LOCAL_LIBS += application/thirdpartylibs/wapmms/lib/libsslplusrad.a
 endif
 
 
@@ -122,29 +122,29 @@ endif
 # VOIS needs this lib. As we want keep only one VOIS lib, we have to add this lib alway.
 ifneq "${CT_MODEM}" "1"
 ifneq "${CT_MODEM}" "2"
-LOCAL_LIBS += application/thirdpartylibs/magic_sound/lib/lib_ejae.a
+#LOCAL_LIBS += application/thirdpartylibs/magic_sound/lib/lib_ejae.a
 endif
 endif
 
 ifeq "${XF_MAGIC_SOUND_SUPPORT}" "1"
-LOCAL_LIBS += application/thirdpartylibs/xf_magic_sound/Lib/libxf_magic_sound_debug.a
+#LOCAL_LIBS += application/thirdpartylibs/xf_magic_sound/Lib/libxf_magic_sound_debug.a
 endif
 
 ifeq "${TTS_MODEL}" "ejtts"
 ifeq "${TTS_LOAD_MODE}" "file"
-LOCAL_LIBS += application/thirdpartylibs/ejTTS/lib/libejTTS.a
+#LOCAL_LIBS += application/thirdpartylibs/ejTTS/lib/libejTTS.a
 endif
 ifeq "${TTS_LOAD_MODE}" "const"
-LOCAL_LIBS += application/thirdpartylibs/ejTTS/lib/lib_const_ejTTS.a
+#LOCAL_LIBS += application/thirdpartylibs/ejTTS/lib/lib_const_ejTTS.a
 endif
 endif
 
 ifeq "$(strip ${MMI_SUPPORT_NATIVE_JAVA})" "yes" 
-include ${SOFT_WORKDIR}/application/adaptation/java/lib/libapp.mk
+#include ${SOFT_WORKDIR}/application/adaptation/java/lib/libapp.mk
 endif
 
 ifeq "$(strip ${MMI_SUPPORT_NATIVE_JAVA})" "yes" 
-include ${SOFT_WORKDIR}/application/adaptation/java/lib/libapp.mk
+#include ${SOFT_WORKDIR}/application/adaptation/java/lib/libapp.mk
 endif
 
 ifeq "${LTE_NBIOT_SUPPORT}" "1"
