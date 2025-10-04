@@ -1,0 +1,11 @@
+# Build artifacts in soft folder
+soft/build/
+soft/hex/
+
+# IDE and Editor folders
+.vscode/
+.idea/
+.settings/
+
+# OS generated folders
+.DS_Store/

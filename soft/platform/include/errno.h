@@ -1,7 +1,14 @@
+
 #ifndef __ERRNO_H_
 #define __ERRNO_H_
 
-//#include <sdk_init.h>
+// Minimal stub definitions for CSDK_FUNC and socket functions
+#ifndef CSDK_FUNC
+#define CSDK_FUNC(name) name
+#endif
+
+// Function declarations
+int Socket_GetLastError(void);
 
 #define EPERM        1  /* Operation not permitted */
 #define ENOENT       2  /* No such file or directory */
@@ -145,5 +152,19 @@
 #define err_to_errno         CSDK_FUNC(err_to_errno)
 #define errno                CSDK_FUNC(Socket_GetLastError)()
 
+// Minimal stub implementations
+#ifndef __ERRNO_IMPL_INCLUDED
+#define __ERRNO_IMPL_INCLUDED
+
+// Global errno variable for fallback
+static int __errno_val = 0;
+
+// Simple stub implementation of Socket_GetLastError
+int Socket_GetLastError(void) {
+    return __errno_val;  // Return the global errno value
+}
+
+
+#endif /* __ERRNO_IMPL_INCLUDED */
 
 #endif

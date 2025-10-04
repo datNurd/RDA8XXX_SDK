@@ -24,8 +24,6 @@ endif
 # list all the modules that need to be compiled prior to using this module
 LOCAL_MODULE_DEPENDS := \
 			${PLATFORM_SERVICE}/base \
-			$(PLATFORM_SERVICE)/lvgl_800 \
-			$(PLATFORM_SERVICE)/lv_lib_png \
 			${PLATFORM_SERVICE}/cfw \
 			${PLATFORM_SERVICE}/dm \
 			${PLATFORM_SERVICE}/pm \
@@ -36,7 +34,14 @@ LOCAL_MODULE_DEPENDS := \
 			${PLATFORM_SERVICE}/fota \
 			$(PLATFORM_SERVICE)/spiffs 
 
+# Only include graphics libraries when NOT in AT-only mode
+ifneq "${CT_MODEM}" "1"
+LOCAL_MODULE_DEPENDS += $(PLATFORM_SERVICE)/lvgl_800
+LOCAL_MODULE_DEPENDS += $(PLATFORM_SERVICE)/lv_lib_png
+endif
+
 LOCAL_MODULE_DEPENDS += $(PLATFORM_SERVICE)/nanopb
+
 
 ifeq "${CHIP_HAS_AP}" "1"
 # CT_MODEM is forced to 1
