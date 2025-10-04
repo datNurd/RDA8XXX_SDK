@@ -58,7 +58,7 @@
 
 #define DBG_GLOBAL_INST // global variables just for debug
 
-#if defined(CHIP_DIE_8809E2) || defined(CHIP_DIE_8955)
+#if defined(CHIP_DIE_8809E2) || defined(CHIP_DIE_8955) || defined(CHIP_DIE_8809)
 #define HWP_UARTS hwp_uart, hwp_uart2
 #define UART_RX_IFC_IDS HAL_IFC_UART1_RX, HAL_IFC_UART2_RX
 #define UART_TX_IFC_IDS HAL_IFC_UART1_TX, HAL_IFC_UART2_TX
@@ -70,7 +70,7 @@ static DRV_UART_T *gDrvUarts[2];
 static DRV_UART_T *gDrvUarts[4];
 #endif
 
-#if defined(CHIP_DIE_8809E2)
+#if defined(CHIP_DIE_8809E2) || defined(CHIP_DIE_8809)
 #define AUTO_BAUD_SUPPORTED 0
 #else
 #define AUTO_BAUD_SUPPORTED 1

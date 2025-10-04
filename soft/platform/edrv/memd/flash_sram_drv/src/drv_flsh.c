@@ -90,7 +90,6 @@ PUBLIC VOID MEMD_BOOT_FUNC memd_RamOpen(CONST MEMD_RAM_CONFIG_T *cfg)
     hal_EbcSramOpen(&cfg->csConfig, memd_RamConfigureBurstMode);
 #else  //!MEMD_RAM_IS_BURST
     hal_EbcCsOpen(HAL_EBC_SRAM, &cfg->csConfig);
-    dfs
 #endif //!MEMD_RAM_IS_BURST
 
 /*
