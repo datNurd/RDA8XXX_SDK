@@ -245,8 +245,30 @@ static uint32_t hal_SpiCmdWithRx(uint8_t cmd, bool qread, const uint8_t *txdata,
         result |= (hwp_spiFlash->spi_data_fifo_wo & 0xff) << 24;
 #endif
 
+// #ifdef SPI_RX_USE_READBACK
+//     uint32_t result = hwp_spiFlash->spi_read_back >> ((4 - rxsize) * 8);
+//     SPI_SET_RX_TX_SIZE(0);
+// #endif
 #ifdef SPI_RX_USE_READBACK
-    uint32_t result = hwp_spiFlash->spi_read_back >> ((4 - rxsize) * 8);
+    #ifdef CHIP_DIE_8809
+        // For 8809, handle byte replication
+        uint32_t result = 0;
+        // Read first byte
+        result |= (hwp_spiFlash->spi_read_back & 0xFF);
+        // Read subsequent bytes
+        if (rxsize > 1) {
+            result |= (hwp_spiFlash->spi_read_back & 0xFF) << 8;
+        }
+        if (rxsize > 2) {
+            result |= (hwp_spiFlash->spi_read_back & 0xFF) << 16;
+        }
+        if (rxsize > 3) {
+            result |= (hwp_spiFlash->spi_read_back & 0xFF) << 24;
+        }
+    #else
+        // Original code for 8955 and others
+        uint32_t result = hwp_spiFlash->spi_read_back >> ((4 - rxsize) * 8);
+    #endif
     SPI_SET_RX_TX_SIZE(0);
 #endif
 
