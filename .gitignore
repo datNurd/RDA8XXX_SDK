@@ -6,6 +6,7 @@ soft/hex/
 .vscode/
 .idea/
 .settings/
+.claude/
 
 # OS generated folders
 .DS_Store/
