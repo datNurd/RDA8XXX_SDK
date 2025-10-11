@@ -10,8 +10,8 @@ REM   2. Run CSDTK42\env_set.bat once (as administrator)
 REM   3. GPRS_CSDTK42_PATH environment variable should be set
 REM
 REM USAGE:
-REM   W1744_build.bat [option] [target]
-REM   
+REM   W1744_build.bat [option] [target] [modem]
+REM
 REM OPTIONS:
 REM   bl      - Build bootloader only
 REM   app     - Build application only  
@@ -26,6 +26,12 @@ REM TARGETS:
 REM   8955_modem  - RDA8955 modem target (default)
 REM   8809_modem  - RDA8809 modem target
 REM   (if no target specified, defaults to 8955_modem)
+REM
+REM MODEM:
+REM   0  - MMI only build
+REM   1  - AT build (default)
+REM   2  - MMI+AT build
+REM   (if not specified, defaults to 1)
 REM ========================================================================
 
 echo ######  RDA8955 W1744 BUILD START  ########
@@ -72,6 +78,11 @@ REM Handle optional CT_TARGET parameter (defaults to 8955_modem)
 set CT_TARGET_PARAM=%2
 if "%CT_TARGET_PARAM%"=="" set CT_TARGET_PARAM=8955_modem
 echo Using target: %CT_TARGET_PARAM%
+
+REM Handle optional CT_MODEM parameter (defaults to 1)
+set CT_MODEM_PARAM=%3
+if "%CT_MODEM_PARAM%"=="" set CT_MODEM_PARAM=1
+echo Using CT_MODEM: %CT_MODEM_PARAM%
 echo.
 
 REM ========================================================================
@@ -136,7 +147,7 @@ echo.
 echo [%time%] Building bootloader...
 call "%USER_CSDTK%\CSDTKvars.bat" || goto build_error
 cd "%BL_WORKDIR%" || goto build_error
-make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=1 CT_PRODUCT=W1744RC1
+make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=%CT_MODEM_PARAM% CT_PRODUCT=W1744RC1
 if errorlevel 1 goto build_error
 echo [%time%] Bootloader build completed successfully
 cd "%SOFT_WORKDIR%"
@@ -147,7 +158,7 @@ echo.
 echo [%time%] Building complete project...
 call "%USER_CSDTK%\CSDTKvars.bat" || goto build_error
 cd "%SOFT_WORKDIR%" || goto build_error
-make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=1 CT_PRODUCT=W1744RC1
+make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=%CT_MODEM_PARAM% CT_PRODUCT=W1744RC1
 if errorlevel 1 goto build_error
 echo [%time%] Complete project build completed successfully
 goto:eof
@@ -157,7 +168,7 @@ echo.
 echo [%time%] Building LVGL module...
 call "%USER_CSDTK%\CSDTKvars.bat" || goto build_error
 cd "%SOFT_WORKDIR%" || goto build_error
-make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=1 CT_PRODUCT=W1744RC1 CT_MODULES="platform/service/lvgl_800"
+make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=%CT_MODEM_PARAM% CT_PRODUCT=W1744RC1 CT_MODULES="platform/service/lvgl_800"
 if errorlevel 1 goto build_error
 echo [%time%] LVGL module build completed successfully
 goto:eof
@@ -167,7 +178,7 @@ echo.
 echo [%time%] Building LVPNG module...
 call "%USER_CSDTK%\CSDTKvars.bat" || goto build_error
 cd "%SOFT_WORKDIR%" || goto build_error
-make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=1 CT_PRODUCT=W1744RC1 CT_MODULES="platform/service/lv_lib_png"
+make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=%CT_MODEM_PARAM% CT_PRODUCT=W1744RC1 CT_MODULES="platform/service/lv_lib_png"
 if errorlevel 1 goto build_error
 echo [%time%] LVPNG module build completed successfully
 goto:eof
@@ -177,7 +188,7 @@ echo.
 echo [%time%] Building application...
 call "%USER_CSDTK%\CSDTKvars.bat" || goto build_error
 cd "%SOFT_WORKDIR%" || goto build_error
-make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=1 CT_PRODUCT=W1744RC1 CT_MODULES="application"
+make -r -j%NUMBER_OF_PROCESSORS% CT_TARGET=%CT_TARGET_PARAM% CT_USER=FAE CT_RELEASE=debug WITH_SVN=0 CT_MODEM=%CT_MODEM_PARAM% CT_PRODUCT=W1744RC1 CT_MODULES="application"
 if errorlevel 1 goto build_error
 echo [%time%] Application build completed successfully
 goto:eof
@@ -239,7 +250,7 @@ echo RDA8955 W1744 Build Script - Usage Information
 echo ========================================================================
 echo.
 echo USAGE:
-echo   %~nx0 [option] [target]
+echo   %~nx0 [option] [target] [modem]
 echo.
 echo BUILD OPTIONS:
 echo   bl      - Build bootloader only
@@ -256,13 +267,21 @@ echo   8955_modem  - Build for RDA8955 modem target (default)
 echo   8809_modem  - Build for RDA8809 modem target
 echo   (if no target specified, defaults to 8955_modem for backward compatibility)
 echo.
+echo MODEM OPTIONS:
+echo   0  - MMI only build
+echo   1  - AT build (default)
+echo   2  - MMI+AT build
+echo   (if not specified, defaults to 1 for backward compatibility)
+echo.
 echo EXAMPLES:
-echo   %~nx0 all              - Build complete project (8955_modem target)
-echo   %~nx0 all 8955_modem   - Build complete project for RDA8955
-echo   %~nx0 all 8809_modem   - Build complete project for RDA8809
-echo   %~nx0 app 8809_modem   - Build application for RDA8809
-echo   %~nx0 merge            - Create merged factory image (8955_modem)
-echo   %~nx0 merge 8809_modem - Create merged factory image (8809_modem)
+echo   %~nx0 all                  - Build complete project (8955_modem, AT build)
+echo   %~nx0 all 8955_modem       - Build complete project for RDA8955 (AT build)
+echo   %~nx0 all 8809_modem       - Build complete project for RDA8809 (AT build)
+echo   %~nx0 all 8809_modem 0     - Build for RDA8809 with MMI only
+echo   %~nx0 all 8955_modem 2     - Build for RDA8955 with MMI+AT
+echo   %~nx0 app 8809_modem 1     - Build application for RDA8809 (AT build)
+echo   %~nx0 merge                - Create merged factory image (8955_modem)
+echo   %~nx0 merge 8809_modem     - Create merged factory image (8809_modem)
 echo.
 echo SETUP REQUIREMENTS:
 echo   1. Install CSDTK42 toolkit
