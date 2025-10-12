@@ -21,32 +21,36 @@ ifeq ($(findstring at/packed,${GLOBAL_BINARY_LIBS}),)
 
 # include folder
 LOCAL_ADD_INCLUDE := $(PLATFORM_SERVICE)/include \
-	$(PLATFORM_SERVICE)/lv_lib_png \
-	$(PLATFORM_SERVICE)/lvgl_800 \
-	$(PLATFORM_SERVICE)/lvgl_800/core \
-	$(PLATFORM_SERVICE)/lvgl_800/draw \
-	$(PLATFORM_SERVICE)/lvgl_800/extra \
-	$(PLATFORM_SERVICE)/lvgl_800/font \
-	$(PLATFORM_SERVICE)/lvgl_800/hal \
-	$(PLATFORM_SERVICE)/lvgl_800/misc \
-	$(PLATFORM_SERVICE)/lvgl_800/widgets \
-	application/casio_clock \
-	application/analog_clock \
+	application/include
+# Commented out UI includes for minimal build (CT_MODEM=0)
+#	$(PLATFORM_SERVICE)/lv_lib_png \
+#	$(PLATFORM_SERVICE)/lvgl_800 \
+#	$(PLATFORM_SERVICE)/lvgl_800/core \
+#	$(PLATFORM_SERVICE)/lvgl_800/draw \
+#	$(PLATFORM_SERVICE)/lvgl_800/extra \
+#	$(PLATFORM_SERVICE)/lvgl_800/font \
+#	$(PLATFORM_SERVICE)/lvgl_800/hal \
+#	$(PLATFORM_SERVICE)/lvgl_800/misc \
+#	$(PLATFORM_SERVICE)/lvgl_800/widgets \
+#	application/casio_clock \
+#	application/analog_clock \
 
 # Space-separated list of modules (libraries) your module depends upon.
 # These should include the toplevel name, e.g. "phy/dishes ciitech/hotwater"
 
-LOCAL_MODULE_DEPENDS := \
-	application/casio_clock \
-	application/analog_clock \
+# Commented out UI module dependencies for minimal build (CT_MODEM=0)
+LOCAL_MODULE_DEPENDS :=
+#	application/casio_clock \
+#	application/analog_clock \
 
 
 # Add includes from other modules we do not wish to link to
-LOCAL_API_DEPENDS := \
-                     ${API_PLATFORM_DEPENDS} \
-                     ${PLATFORM_SYSTEM}/svc/imgs/include \
-                     ${PLATFORM_SYSTEM}/svc/imgs/src \
-                     ${PLATFORM_SERVICE}/lvgl_800 \
+# Minimal API dependencies for minimal build (CT_MODEM=0)
+LOCAL_API_DEPENDS := ${API_PLATFORM_DEPENDS}
+# Commented out UI API dependencies
+#                     ${PLATFORM_SYSTEM}/svc/imgs/include \
+#                     ${PLATFORM_SYSTEM}/svc/imgs/src \
+#                     ${PLATFORM_SERVICE}/lvgl_800 \
 
 # Generate the revision (version) file automatically during the make process.
 AUTO_GEN_REVISION_HEADER := yes
@@ -103,7 +107,11 @@ endif
 
 # Assembly / C code
 S_SRC := $(notdir $(wildcard src/*.S))
-C_SRC := $(notdir $(wildcard src/*.c))
+# Use minimal sources for CT_MODEM=0 build
+# Uncomment next line for full UI build:
+# C_SRC := $(notdir $(wildcard src/*.c))
+# Use this for minimal build:
+C_SRC := minimal_main.c application_map.c platformneed.c
 # Simulation specific inputs
 INPUT_FILES :=  
 

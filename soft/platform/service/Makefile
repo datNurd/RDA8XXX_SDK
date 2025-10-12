@@ -35,10 +35,11 @@ LOCAL_MODULE_DEPENDS := \
 			$(PLATFORM_SERVICE)/spiffs 
 
 # Only include graphics libraries when NOT in AT-only mode
-ifneq "${CT_MODEM}" "1"
-LOCAL_MODULE_DEPENDS += $(PLATFORM_SERVICE)/lvgl_800
-LOCAL_MODULE_DEPENDS += $(PLATFORM_SERVICE)/lv_lib_png
-endif
+# Commented out for minimal MMI build (CT_MODEM=0)
+#ifneq "${CT_MODEM}" "1"
+#LOCAL_MODULE_DEPENDS += $(PLATFORM_SERVICE)/lvgl_800
+#LOCAL_MODULE_DEPENDS += $(PLATFORM_SERVICE)/lv_lib_png
+#endif
 
 LOCAL_MODULE_DEPENDS += $(PLATFORM_SERVICE)/nanopb
 

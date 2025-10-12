@@ -42,8 +42,8 @@ ifeq "${CT_MODEM}" "1"
 LOCAL_LIBS += env/lib/gcc/mips-elf/4.4.2/libgcc.a
 else
 ifeq "${CT_MODEM}" "2"
-LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_dev_tc_plus_ml.a
-LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_v5.1_dev.a
+# LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_dev_tc_plus_ml.a
+# LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_v5.1_dev.a
 #LOCAL_LIBS += application/thirdpartylibs/gb/lib/libGB_debug.a
 #LOCAL_LIBS += application/thirdpartylibs/gbmllib/lib/libgbmllib_debug.a
 LOCAL_LIBS += env/lib/gcc/mips-elf/4.4.2/libgcc.a
