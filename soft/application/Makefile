@@ -111,7 +111,7 @@ S_SRC := $(notdir $(wildcard src/*.S))
 # Uncomment next line for full UI build:
 # C_SRC := $(notdir $(wildcard src/*.c))
 # Use this for minimal build:
-C_SRC := minimal_main.c application_map.c platformneed.c
+C_SRC := minimal_main.c network_manager.c application_map.c platformneed.c
 # Simulation specific inputs
 INPUT_FILES :=  
 

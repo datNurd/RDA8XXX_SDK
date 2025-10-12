@@ -27,6 +27,7 @@ extern VOID VDS_CacheTaskEntry(void *pData);
 #endif
 
 #include "mmi_trace.h"
+#include "network_manager.h"
 
 // AT task handle and DM handler registration (for AT+MMI mode)
 #ifndef ONLY_MMI_SUPPORT
@@ -39,6 +40,9 @@ extern BOOL DM_RegisterHandler(UINT8 nDeviceId, PFN_DEVICE_HANDLER pfnDevHandler
 
 // Event counter for diagnostics
 static uint32_t g_EventCounter = 0;
+
+// Auto-connect timer ID
+#define TIMER_AUTO_CONNECT  0xF1
 
 #ifndef ONLY_MMI_SUPPORT
 /**
@@ -129,8 +133,79 @@ void MINIMAL_DispatchMessage(COS_EVENT *pev)
     // No need to handle it here to avoid conflicts with AT's handling
 
     case EV_TIMER:
-        // Timer events - can be used for periodic tasks
+        // Auto-connect timer
+        if (pev->nParam1 == TIMER_AUTO_CONNECT) {
+            MMILOGI("[MINIMAL] ==========================================");
+            MMILOGI("[MINIMAL] Auto-connect timer expired");
+            MMILOGI("[MINIMAL] Requesting internet connection...");
+            MMILOGI("[MINIMAL] ==========================================");
+
+            // Request connection (non-blocking)
+            // BSNL APN Configuration:
+            // - BSNL 2G/3G: "bsnlnet" (most common)
+            // - BSNL 4G: "www" (if 4G capable)
+            // - Alternative: "bsnllive" or "bsnlmms"
+            NetMgr_Connect("bsnlnet", CFW_SIM_0);
+        }
         break;
+
+    case EV_NET_CONNECTED: {
+        // Internet connection successful!
+        UINT8 cid = (UINT8)pev->nParam1;
+        UINT32 ip = pev->nParam2;
+
+        MMILOGI("[MINIMAL] ==========================================");
+        MMILOGI("[MINIMAL]  INTERNET CONNECTED!");
+        MMILOGI("[MINIMAL]  CID: %d", cid);
+        MMILOGI("[MINIMAL]  IP:  %d.%d.%d.%d",
+               (ip >> 0) & 0xFF,
+               (ip >> 8) & 0xFF,
+               (ip >> 16) & 0xFF,
+               (ip >> 24) & 0xFF);
+        MMILOGI("[MINIMAL] ==========================================");
+
+        // ================================================================
+        // TODO: START YOUR INTERNET APPLICATION HERE!
+        // ================================================================
+        // At this point, you have a working internet connection.
+        // You can now:
+        // - Open TCP/UDP sockets
+        // - Make HTTP/HTTPS requests
+        // - Connect MQTT client
+        // - Use any LwIP networking functions
+        //
+        // Example:
+        // mqtt_connect("mqtt.example.com", 1883);
+        // http_get("http://api.example.com/data");
+        // ================================================================
+
+        break;
+    }
+
+    case EV_NET_ERROR: {
+        // Connection failed
+        UINT8 error_code = (UINT8)pev->nParam1;
+
+        MMILOGE("[MINIMAL] ==========================================");
+        MMILOGE("[MINIMAL]  INTERNET CONNECTION FAILED!");
+        MMILOGE("[MINIMAL]  Error code: 0x%02X", error_code);
+        MMILOGE("[MINIMAL] ==========================================");
+
+        // ================================================================
+        // TODO: ADD RETRY LOGIC OR ERROR HANDLING
+        // ================================================================
+        // Options:
+        // 1. Retry after delay:
+        //    COS_SetTimer(mainTaskHandle, TIMER_AUTO_CONNECT,
+        //                 COS_TIMER_MODE_SINGLE, 30000);  // Retry in 30s
+        //
+        // 2. Alert user (if UI available)
+        //
+        // 3. Log error and continue without internet
+        // ================================================================
+
+        break;
+    }
 
     default:
         // Add your custom event handling here
@@ -203,6 +278,24 @@ BOOL SRVAPI BAL_ApplicationInit(VOID)
     }
 
     MMILOGI("[MINIMAL] Main task created, handle: 0x%08x", mainTaskHandle);
+
+    // ========================================================================
+    // Initialize Network Manager
+    // ========================================================================
+    // This creates a worker task that handles blocking network operations
+    // Main task remains responsive while worker connects to internet
+    // ========================================================================
+    if (NetMgr_Init(mainTaskHandle)) {
+        MMILOGI("[MINIMAL] ✓ Network manager initialized");
+
+        // Set timer for auto-connect (5 seconds after boot)
+        // This allows time for modem initialization
+        COS_SetTimer(mainTaskHandle, TIMER_AUTO_CONNECT,
+                     COS_TIMER_MODE_SINGLE, 5000);
+        MMILOGI("[MINIMAL] Auto-connect timer set (5 seconds)");
+    } else {
+        MMILOGE("[MINIMAL] ✗ Network manager initialization FAILED!");
+    }
 
     #ifndef ONLY_MMI_SUPPORT
     // Register AT event handlers for AT+MMI mode
