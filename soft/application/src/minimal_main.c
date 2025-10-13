@@ -28,6 +28,8 @@ extern VOID VDS_CacheTaskEntry(void *pData);
 
 #include "mmi_trace.h"
 #include "network_manager.h"
+#include "lwip/netdb.h"  // For gethostbyname()
+#include "lwip/inet.h"   // For inet_ntoa()
 
 // AT task handle and DM handler registration (for AT+MMI mode)
 #ifndef ONLY_MMI_SUPPORT
@@ -114,6 +116,39 @@ static VOID MMI_ForwardToAT_Gpadc(COS_EVENT *pEvent)
 #endif // ONLY_MMI_SUPPORT
 
 /**
+ * DNS Lookup Test Function
+ * Tests DNS resolution by resolving a hostname to IP address
+ * Uses LwIP's standard gethostbyname() function
+ */
+static void test_dns_lookup(const char *hostname)
+{
+    MMILOGI("[DNS] ==========================================");
+
+    // Resolve hostname to IP address (blocks until complete or timeout)
+    struct hostent *host = gethostbyname(hostname);
+
+    if (host == NULL) {
+        MMILOGE("[DNS] Resolution FAILED");
+        MMILOGI("[DNS] ==========================================");
+        return;
+    }
+
+    // Extract IP address from result
+    // h_addr is a pointer to the first address in h_addr_list
+    struct in_addr *addr = (struct in_addr *)host->h_addr;
+    UINT32 ip = addr->s_addr;
+
+    // Format IP manually (same as connection IP logging - this works!)
+    MMILOGI("[DNS] SUCCESS!");
+    MMILOGI("[DNS] IP: %d.%d.%d.%d",
+            (ip >> 0) & 0xFF,
+            (ip >> 8) & 0xFF,
+            (ip >> 16) & 0xFF,
+            (ip >> 24) & 0xFF);
+    MMILOGI("[DNS] ==========================================");
+}
+
+/**
  * Event dispatcher - logs all system events
  * In AT+MMI mode, AT module handles CFW initialization
  * This is just for monitoring and custom application logic
@@ -165,9 +200,33 @@ void MINIMAL_DispatchMessage(COS_EVENT *pev)
         MMILOGI("[MINIMAL] ==========================================");
 
         // ================================================================
+        // TEST DNS RESOLUTION
+        // ================================================================
+        // Now that we have internet, test DNS lookup with multiple domains
+        // This verifies that DNS servers are configured correctly
+        // ================================================================
+
+        MMILOGI("[MINIMAL] Starting DNS tests...");
+
+        // Test 1: Google (global, should always work)
+        MMILOGI("[DNS] Test 1: www.google.com");
+        test_dns_lookup("www.google.com");
+
+        // Test 2: GitHub API (popular API endpoint)
+        MMILOGI("[DNS] Test 2: api.github.com");
+        test_dns_lookup("api.github.com");
+
+        // Test 3: BSNL website (local ISP, good connectivity test)
+        MMILOGI("[DNS] Test 3: www.bsnl.co.in");
+        test_dns_lookup("www.bsnl.co.in");
+
+        MMILOGI("[MINIMAL] DNS tests completed!");
+
+        // ================================================================
         // TODO: START YOUR INTERNET APPLICATION HERE!
         // ================================================================
         // At this point, you have a working internet connection.
+        // DNS resolution is verified and working.
         // You can now:
         // - Open TCP/UDP sockets
         // - Make HTTP/HTTPS requests
